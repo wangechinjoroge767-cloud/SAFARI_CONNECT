@@ -79,7 +79,7 @@ Example:
 Input: "KES 1200.50"
 Matched characters (deleted): K, E, S, space
 Kept characters: 1, 2, 0, 0, ., 5, 0
-Output: "1200.50" ✅
+Output: "1200.50" 
 The period is kept because fares have decimals. Without it, "1200.50" becomes "120050" (wrong!).
 Why nullif()?
 Prevents division by zero errors. If a route has 0 seats booked:
