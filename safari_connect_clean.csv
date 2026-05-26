@@ -1,0 +1,290 @@
+booking_id,passenger_name,passenger_phone,passenger_gender,passenger_city,route_code,route_from,route_to,vehicle_plate,vehicle_type,driver_name,driver_rating,departure_date,departure_time,seat_class,seats_booked,fare_per_seat,total_fare,payment_method,booking_status,trip_rating,Custom_phone
+BK0001,Alice Mwangi,712345678,Female,Nairobi,RT001,Nairobi,Mombasa,KBZ 001A,Bus,Kelvin Omondi,4.5,8-Jan-24,6:00 AM,Economy,3,"Ksh1,200.00","Ksh3,600.00",M-Pesa,Completed,2,+254712345678
+BK0004,David Kamau,0745678901,Male,Nairobi,RT007,Nairobi,Nyeri,KDE 678G,Bus,Peter Ngugi,4.3,11-Jan-24,1:00 PM,Economy,2,Ksh400.00,Ksh800.00,M-Pesa,Completed,3,+254745678901
+BK0006,Felix Hassan,,Male,Nairobi,RT007,Nairobi,Nyeri,KDE 678G,Bus,Peter Ngugi,4.3,16-Jan-24,1:00 PM,Economy,3,Ksh400.00,"Ksh1,200.00",Cash,Completed,4,
+BK0008,Henry Korir,789012345,Male,Nairobi,RT001,Nairobi,Mombasa,KDA 567C,Matatu,Moses Kipchoge,4.8,18-Jan-24,7:00 PM,Economy,1,"Ksh1,200.00","Ksh1,200.00",Cash,Completed,2,+254789012345
+BK0010,James Gitonga,701234567,Male,Nairobi,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,20-Jan-24,8:00 AM,Economy,3,Ksh120.00,Ksh360.00,M-Pesa,Completed,5,+254701234567
+BK0011,Karen Adhiambo,712111222,Female,Nairobi,RT001,Nairobi,Mombasa,KDA 567C,Matatu,Moses Kipchoge,4.8,22-Jan-24,7:00 PM,Economy,2,"Ksh1,200.00","Ksh2,400.00",M-Pesa,Completed,5,+254712111222
+BK0013,Mary Waweru,734333444,Male,Nairobi,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,24-Jan-24,8:00 AM,Economy,3,Ksh120.00,Ksh360.00,M-Pesa,Completed,2,+254734333444
+BK0015,Olivia Maina,756555666,Female,Nairobi,RT009,Nairobi,Machakos,KDA 567C,Matatu,Moses Kipchoge,4.8,26-Jan-24,1:00 PM,Economy,2,Ksh200.00,Ksh400.00,Card,Completed,3,+254756555666
+BK0019,Tabitha Karanja,790999000,Female,Nairobi,RT010,Nairobi,Naivasha,KDB 890D,Matatu,Tony Karanja,3.9,30-Jan-24,2:30 PM,Business,2,Ksh280.00,Ksh560.00,M-Pesa,Completed,2,+254790999000
+BK0021,Alice Mwangi,712345678,Female,Nairobi,RT004,Nairobi,Eldoret,KDF 901H,Matatu,Isaac Korir,3.8,1-Feb-24,9:00 PM,Economy,3,Ksh800.00,"Ksh2,400.00",Card,Completed,6,+254712345678
+BK0024,David Kamau,745678901,Male,Nairobi,RT010,Nairobi,Naivasha,KDD 345F,Minibus,Samuel Gitonga,4.6,4-Feb-24,12:00 PM,Economy,1,Ksh280.00,Ksh280.00,Cash,Completed,5,+254745678901
+BK0026,Felix Hassan,0767890123,Male,Nairobi,RT007,Nairobi,Nyeri,KDA 567C,Matatu,Moses Kipchoge,4.8,6-Feb-24,8:00 AM,Economy,2,Ksh400.00,Ksh800.00,Cash,Completed,3,+254767890123
+BK0030,James Gitonga,701234567,Male,Nairobi,RT001,Nairobi,Mombasa,KDE 678G,Bus,Peter Ngugi,4.3,13-Feb-24,1:00 PM,Economy,1,"Ksh1,200.00","Ksh1,200.00",Cash,Completed,2,+254701234567
+BK0031,Karen Adhiambo,712111222,Female,Nairobi,RT003,Nairobi,Nakuru,KBZ 001A,Bus,Kelvin Omondi,4.5,14-Feb-24,4:00 PM,Economy,1,Ksh450.00,Ksh450.00,M-Pesa,Completed,3,+254712111222
+BK0033,Mary Waweru,734333444,Female,Nairobi,RT007,Nairobi,Nyeri,KDC 112E,Minibus,Hassan Abdi,4.1,16-Feb-24,6:00 AM,Economy,3,Ksh400.00,"Ksh1,200.00",Card,Completed,3,+254734333444
+BK0039,Tabitha Karanja,790999000,Female,Nairobi,RT009,Nairobi,Machakos,KDE 678G,Bus,Peter Ngugi,4.3,26-Feb-24,8:00 AM,Economy,3,Ksh200.00,Ksh600.00,Card,Completed,3,+254790999000
+BK0041,Alice Mwangi,712345678,Female,Nairobi,RT003,Nairobi,Nakuru,KDA 567C,Matatu,Moses Kipchoge,4.8,28-Feb-24,1:00 PM,Economy,2,Ksh450.00,Ksh900.00,M-Pesa,Completed,3,+254712345678
+BK0046,Felix Hassan,767890123,Male,Nairobi,RT009,Nairobi,Machakos,KBZ 001A,Bus,Kelvin Omondi,4.5,7-Mar-24,6:00 AM,Economy,2,Ksh200.00,Ksh400.00,M-Pesa,Completed,3,+254767890123
+BK0050,James Gitonga,,Male,Nairobi,RT002,Nairobi,Kisumu,KDB 890D,Matatu,Tony Karanja,3.9,13-Mar-24,9:00 AM,Economy,1,Ksh900.00,Ksh900.00,Cash,Completed,2,
+BK0051,Karen Adhiambo,712111222,Female,Nairobi,RT004,Nairobi,Eldoret,KDD 345F,Minibus,Samuel Gitonga,4.6,14-Mar-24,12:00 PM,Economy,2,Ksh800.00,"Ksh1,600.00",Card,Completed,5,+254712111222
+BK0053,Mary Waweru,734333444,Female,Nairobi,RT003,Nairobi,Nakuru,KDC 112E,Minibus,Hassan Abdi,4.1,18-Mar-24,10:30 AM,Economy,2,Ksh450.00,Ksh900.00,M-Pesa,Completed,3,+254734333444
+BK0055,Olivia Maina,756555666,Female,Nairobi,RT007,Nairobi,Nyeri,KBZ 001A,Bus,Kelvin Omondi,4.5,20-Mar-24,4:00 PM,Economy,2,Ksh400.00,Ksh800.00,M-Pesa,Completed,2,+254756555666
+BK0061,Alice Mwangi,712345678,Female,Nairobi,RT002,Nairobi,Kisumu,KDD 345F,Minibus,Samuel Gitonga,4.6,26-Mar-24,7:30 AM,Economy,2,Ksh900.00,"Ksh1,800.00",M-Pesa,Completed,3,+254712345678
+BK0068,Henry Korir,789012345,Male,Nairobi,RT010,Nairobi,Naivasha,KDD 345F,Minibus,Samuel Gitonga,4.6,3-Apr-24,5:30 PM,Economy,3,Ksh280.00,Ksh840.00,Cash,Completed,5,+254789012345
+BK0073,Mary Waweru,734333444,Female,Nairobi,RT004,Nairobi,Eldoret,KCB 234B,Bus,Brian Kamau,4.2,4-Sep-24,7:30 AM,Economy,3,Ksh800.00,"Ksh2,400.00",M-Pesa,Completed,4,+254734333444
+BK0079,Tabitha Karanja,790999000,Female,Nairobi,RT002,Nairobi,Kisumu,KCB 234B,Bus,Brian Kamau,4.2,18-Apr-24,5:30 PM,Economy,2,Ksh900.00,"Ksh1,800.00",M-Pesa,Completed,5,+254790999000
+BK0086,Felix Hassan,767890123,Male,Nairobi,RT009,Nairobi,Machakos,KBZ 001A,Bus,Kelvin Omondi,4.5,25-Apr-24,10:30 AM,Economy,2,Ksh200.00,Ksh400.00,Cash,Completed,4,+254767890123
+BK0090,James Gitonga,701234567,Male,Nairobi,RT003,Nairobi,Nakuru,KDC 112E,Minibus,Hassan Abdi,4.1,2-May-24,4:00 PM,Economy,3,Ksh450.00,"Ksh1,350.00",Cash,Completed,4,+254701234567
+BK0091,  Karen Adhiambo,712111222,Female,Nairobi,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,3-May-24,7:00 PM,Economy,1,Ksh120.00,Ksh120.00,M-Pesa,Completed,3,+254712111222
+BK0093,Mary Waweru,254734333444,Female,Nairobi,RT003,Nairobi,Nakuru,KDC 112E,Minibus,Hassan Abdi,4.1,6-May-24,4:00 PM,Economy,1,Ksh450.00,Ksh450.00,Card,Completed,4,+254734333444
+BK0095,Olivia Maina,756555666,Female,Nairobi,RT007,Nairobi,Nyeri,KBZ 001A,Bus,Kelvin Omondi,4.5,5-Aug-24,6:00 AM,Economy,1,Ksh400.00,Ksh400.00,M-Pesa,Completed,5,+254756555666
+BK0099,Tabitha Karanja,790999000,Female,Nairobi,RT005,Nairobi,Thika,KBZ 001A,Bus,Kelvin Omondi,4.5,12-May-24,4:00 PM,Economy,3,Ksh120.00,Ksh360.00,Card,Completed,3,+254790999000
+BK0101,Alice Mwangi,712345678,Female,Nairobi,RT002,Nairobi,Kisumu,KDD 345F,Minibus,Samuel Gitonga,4.6,14-May-24,12:00 PM,Economy,2,Ksh900.00,"Ksh1,800.00",M-Pesa,Completed,4,+254712345678
+BK0106,Felix Hassan,767890123,Male,Nairobi,RT002,Nairobi,Kisumu,KDF 901H,Matatu,Isaac Korir,3.8,19-May-24,9:00 AM,Economy,2,Ksh900.00,"Ksh1,800.00",M-Pesa,Completed,5,+254767890123
+BK0108,Henry Korir,789012345,Male,Nairobi,RT009,Nairobi,Machakos,KDC 112E,Minibus,Hassan Abdi,4.1,21-May-24,6:00 AM,Economy,2,Ksh200.00,Ksh400.00,Cash,Completed,3,+254789012345
+BK0111,Karen Adhiambo,712111222,Female,Nairobi,RT005,Nairobi,Thika,KDA 567C,Matatu,Moses Kipchoge,4.8,24-May-24,1:00 PM,Economy,1,Ksh120.00,Ksh120.00,Card,Completed,3,+254712111222
+BK0113,  Mary Waweru,734333444,Female,Nairobi,RT004,Nairobi,Eldoret,KCB 234B,Bus,Brian Kamau,4.2,28-May-24,12:00 PM,Economy,2,Ksh800.00,"Ksh1,600.00",M-Pesa,Completed,4,+254734333444
+BK0119,Tabitha Karanja,790999000,Female,Nairobi,RT009,Nairobi,Machakos,KDE 678G,Bus,Peter Ngugi,4.3,6-Mar-24,7:00 PM,Economy,2,Ksh200.00,Ksh400.00,M-Pesa,Completed,3,+254790999000
+BK0121,Alice Mwangi,712345678,Female,Nairobi,RT003,Nairobi,Nakuru,KDA 567C,Matatu,Moses Kipchoge,4.8,5-Jun-24,8:00 AM,Economy,1,Ksh450.00,Ksh450.00,M-Pesa,Completed,2,+254712345678
+BK0124,David Kamau,745678901,Male,Nairobi,RT009,Nairobi,Machakos,KBZ 001A,Bus,Kelvin Omondi,4.5,8-Jun-24,4:00 PM,Economy,1,Ksh200.00,Ksh200.00,Mpesa,Completed,5,+254745678901
+BK0128,Henry Korir,789012345,Male,Nairobi,RT010,Nairobi,Naivasha,KCB 234B,Bus,Brian Kamau,4.2,12-Jun-24,5:30 PM,Economy,1,Ksh280.00,Ksh280.00,Cash,Completed,3,+254789012345
+BK0130,James Gitonga,701234567,Male,Nairobi,RT004,Nairobi,Eldoret,KDD 345F,Minibus,Samuel Gitonga,4.6,14-Jun-24,7:30 AM,Economy,2,Ksh800.00,"Ksh1,600.00",M-Pesa,Completed,2,+254701234567
+BK0131,Karen Adhiambo,712111222,Female,Nairobi,RT001,Nairobi,Mombasa,KDA 567C,Matatu,Moses Kipchoge,4.8,17-Jun-24,7:00 PM,Economy,3,"Ksh1,200.00","Ksh3,600.00",M-Pesa,Completed,6,+254712111222
+BK0133,Mary Waweru,734333444,Female,Nairobi,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,19-Jun-24,8:00 AM,Economy,3,Ksh120.00,Ksh360.00,M-Pesa,Completed,2,+254734333444
+BK0135,  Olivia Maina,756555666,Female,Nairobi,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,24-Jun-24,8:00 AM,Economy,2,Ksh120.00,Ksh240.00,Card,Completed,3,+254756555666
+BK0139,Tabitha Karanja,790999000,Female,Nairobi,RT003,Nairobi,Nakuru,KDE 678G,Bus,Peter Ngugi,4.3,28-Jun-24,7:00 PM,Economy,3,Ksh450.00,"Ksh1,350.00",M-Pesa,Completed,5,+254790999000
+BK0141,Alice Mwangi,712345678,Female,Nairobi,RT007,Nairobi,Nyeri,KDA 567C,Matatu,Moses Kipchoge,4.8,30-Jun-24,8:00 AM,Economy,1,Ksh400.00,Ksh400.00,Card,Completed,3,+254712345678
+BK0148,Henry Korir,789012345,Male,Nairobi,RT010,Nairobi,Naivasha,KDD 345F,Minibus,Samuel Gitonga,4.6,10-Jul-24,12:00 PM,Economy,1,Ksh280.00,Ksh280.00,M-Pesa,Completed,2,+254789012345
+BK0150,James Gitonga,701234567,Male,Nairobi,RT010,Nairobi,Naivasha,KDD 345F,Minibus,Samuel Gitonga,4.6,15-Jul-24,12:00 PM,Economy,3,Ksh280.00,Ksh840.00,Cash,Completed,5,+254701234567
+BK0151,Karen Adhiambo,712111222,Female,Nairobi,RT002,Nairobi,Kisumu,KDF 901H,Matatu,Isaac Korir,3.8,16-Jul-24,2:30 PM,Economy,1,Ksh900.00,Ksh900.00,M-Pesa,Completed,3,+254712111222
+BK0155,Olivia Maina,756555666,Female,Nairobi,RT010,Nairobi,Naivasha,KDF 901H,Matatu,Isaac Korir,3.8,20-Jul-24,9:00 AM,Economy,3,Ksh280.00,Ksh840.00,M-Pesa,Completed,3,+254756555666
+BK0159,Tabitha Karanja,254790999000,Female,Nairobi,RT002,Nairobi,Kisumu,KCB 234B,Bus,Brian Kamau,4.2,25-Jul-24,12:00 PM,Economy,2,Ksh900.00,"Ksh1,800.00",Card,Completed,2,+254790999000
+BK0161,Alice Mwangi,712345678,Female,Nairobi,RT001,Nairobi,Mombasa,KBZ 001A,Bus,Kelvin Omondi,4.5,29-Jul-24,10:30 AM,Economy,2,"Ksh1,200.00","Ksh2,400.00",M-Pesa,Completed,2,+254712345678
+BK0164,David Kamau,745678901,Male,Nairobi,RT007,Nairobi,Nyeri,KDE 678G,Bus,Peter Ngugi,4.3,1-Aug-24,7:00 PM,Economy,2,Ksh400.00,Ksh800.00,Cash,Completed,4,+254745678901
+BK0170,James Gitonga,701234567,Male,Nairobi,RT001,Nairobi,Mombasa,KDA 567C,Matatu,Moses Kipchoge,4.8,13-Aug-24,8:00 AM,Economy,2,"Ksh1,200.00","Ksh2,400.00",Cash,Completed,2,+254701234567
+BK0171,Karen Adhiambo,712111222,Female,Nairobi,RT003,Nairobi,Nakuru,KDC 112E,Minibus,Hassan Abdi,4.1,14-Aug-24,10:30 AM,Economy,1,Ksh450.00,Ksh450.00,Card,Completed,5,+254712111222
+BK0173,Mary Waweru,734333444,Female,Nairobi,RT007,Nairobi,Nyeri,KBZ 001A,Bus,Kelvin Omondi,4.5,16-Aug-24,4:00 PM,Economy,2,Ksh400.00,Ksh800.00,M-Pesa,Completed,3,+254734333444
+BK0179,  Tabitha Karanja,790999000,Female,Nairobi,RT010,Nairobi,Naivasha,KDB 890D,Matatu,Tony Karanja,3.9,27-Aug-24,9:00 PM,Economy,2,Ksh280.00,Ksh560.00,M-Pesa,Completed,5,+254790999000
+BK0181,Alice Mwangi,254712345678,Female,Nairobi,RT004,Nairobi,Eldoret,KDF 901H,Matatu,Isaac Korir,3.8,29-Aug-24,9:00 AM,Economy,3,Ksh800.00,"Ksh2,400.00",M-Pesa,Completed,2,+254712345678
+BK0190,James Gitonga,701234567,Male,Nairobi,RT004,Nairobi,Eldoret,KCB 234B,Bus,Brian Kamau,4.2,13-Sep-24,7:30 AM,Economy,1,Ksh800.00,Ksh800.00,Cash,Completed,4,+254701234567
+BK0191,Karen Adhiambo,712111222,Female,Nairobi,RT001,Nairobi,Mombasa,KDE 678G,Bus,Peter Ngugi,4.3,16-Sep-24,7:00 PM,Economy,1,"Ksh1,200.00","Ksh1,200.00",M-Pesa,Completed,4,+254712111222
+BK0193,Mary Waweru,734333444,Female,Nairobi,RT005,Nairobi,Thika,KDA 567C,Matatu,Moses Kipchoge,4.8,18-Sep-24,8:00 AM,Economy,1,Ksh120.00,Ksh120.00,M-Pesa,Completed,3,+254734333444
+BK0195,Olivia Maina,756555666,Female,Nairobi,RT009,Nairobi,Machakos,KDE 678G,Bus,Peter Ngugi,4.3,20-Sep-24,1:00 PM,Economy,1,Ksh200.00,Ksh200.00,Card,Completed,5,+254756555666
+BK0199,Tabitha Karanja,790999000,Female,Nairobi,RT001,Nairobi,Mombasa,KBZ 001A,Bus,Kelvin Omondi,4.5,25-Sep-24,4:00 PM,Economy,2,"Ksh1,200.00","Ksh2,400.00",M-Pesa,Completed,2,+254790999000
+BK0201,  Alice Mwangi,712345678,Female,Nairobi,RT005,Nairobi,Thika,KDC 112E,Minibus,Hassan Abdi,4.1,27-Sep-24,6:00 AM,Economy,2,Ksh120.00,Ksh240.00,Card,Completed,5,+254712345678
+BK0204,David Kamau,,Male,Nairobi,RT004,Nairobi,Eldoret,KDB 890D,Matatu,Tony Karanja,3.9,30-Sep-24,9:00 PM,Economy,3,Ksh800.00,"Ksh2,400.00",Cash,Completed,3,
+BK0208,Henry Korir,789012345,Male,Nairobi,RT002,Nairobi,Kisumu,KDB 890D,Matatu,Tony Karanja,3.9,4-Oct-24,2:30 PM,Economy,1,Ksh900.00,Ksh900.00,M-Pesa,Completed,4,+254789012345
+BK0211,Karen Adhiambo,712111222,Male,Nairobi,RT002,Nairobi,Kisumu,KDB 890D,Matatu,Tony Karanja,3.9,8-Oct-24,2:30 PM,Economy,2,Ksh900.00,"Ksh1,800.00",M-Pesa,Completed,5,+254712111222
+BK0215,Olivia Maina,756555666,Female,Nairobi,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,14-Oct-24,7:00 PM,Economy,2,Ksh120.00,Ksh240.00,M-Pesa,Completed,4,+254756555666
+BK0219,Tabitha Karanja,790999000,Female,Nairobi,RT003,Nairobi,Nakuru,KDE 678G,Bus,Peter Ngugi,4.3,18-Oct-24,1:00 PM,Economy,3,Ksh450.00,"Ksh1,350.00",Card,Completed,6,+254790999000
+BK0221,Alice Mwangi,712345678,Female,Nairobi,RT002,Nairobi,Kisumu,KDD 345F,Minibus,Samuel Gitonga,4.6,22-Oct-24,12:00 PM,Economy,2,Ksh900.00,"Ksh1,800.00",M-Pesa,Completed,4,+254712345678
+BK0226,Felix Hassan,,Male,Nairobi,RT002,Nairobi,Kisumu,KDF 901H,Matatu,Isaac Korir,3.8,27-Oct-24,9:00 AM,Economy,3,Ksh900.00,"Ksh2,700.00",M-Pesa,Completed,3,
+BK0228,Henry Korir,789012345,Male,Nairobi,RT009,Nairobi,Machakos,KDC 112E,Minibus,Hassan Abdi,4.1,29-Oct-24,6:00 AM,Economy,3,Ksh200.00,Ksh600.00,Cash,Completed,3,+254789012345
+BK0230,James Gitonga,701234567,Male,Nairobi,RT003,Nairobi,Nakuru,KBZ 001A,Bus,Kelvin Omondi,4.5,31-Oct-24,10:30 AM,Economy,3,Ksh450.00,"Ksh1,350.00",Cash,Completed,3,+254701234567
+BK0231,Karen Adhiambo,712111222,Female,Nairobi,RT005,Nairobi,Thika,KDA 567C,Matatu,Moses Kipchoge,4.8,1-Nov-24,1:00 PM,Economy,3,Ksh120.00,Ksh360.00,Card,Completed,3,+254712111222
+BK0233,Mary Waweru,734333444,Male,Nairobi,RT003,Nairobi,Nakuru,KBZ 001A,Bus,Kelvin Omondi,4.5,4-Nov-24,10:30 AM,Economy,3,Ksh450.00,"Ksh1,350.00",M-Pesa,Completed,2,+254734333444
+BK0235,Olivia Maina,756555666,Female,Nairobi,RT007,Nairobi,Nyeri,KDC 112E,Minibus,Hassan Abdi,4.1,6-Nov-24,4:00 PM,Economy,3,Ksh400.00,"Ksh1,200.00",M-Pesa,Completed,3,+254756555666
+BK0239,Tabitha Karanja,790999000,Female,Nairobi,RT010,Nairobi,Naivasha,KDF 901H,Matatu,Isaac Korir,3.8,12-Nov-24,9:00 PM,Business,3,Ksh280.00,Ksh840.00,M-Pesa,Completed,2,+254790999000
+BK0241,Alice Mwangi,712345678,Female,Nairobi,RT004,Nairobi,Eldoret,KDB 890D,Matatu,Tony Karanja,3.9,14-Nov-24,9:00 AM,Economy,1,Ksh800.00,Ksh800.00,M-Pesa,Completed,6,+254712345678
+BK0244,David Kamau,745678901,Male,Nairobi,RT004,Nairobi,Eldoret,KDB 890D,Matatu,Tony Karanja,3.9,18-Nov-24,9:00 AM,Economy,2,Ksh800.00,"Ksh1,600.00",M-Pesa,Completed,5,+254745678901
+BK0248,Henry Korir,,Male,Nairobi,RT002,Nairobi,Kisumu,KDB 890D,Matatu,Tony Karanja,3.9,22-Nov-24,9:00 PM,Economy,1,Ksh900.00,Ksh900.00,Cash,Completed,4,
+BK0251,Karen Adhiambo,712111222,Female,Nairobi,RT001,Nairobi,Mombasa,KDA 567C,Matatu,Moses Kipchoge,4.8,25-Nov-24,7:00 PM,Economy,3,"Ksh1,200.00","Ksh3,600.00",M-Pesa,Completed,2,+254712111222
+BK0253,Mary Waweru,734333444,Female,Nairobi,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,27-Nov-24,8:00 AM,Economy,1,Ksh120.00,Ksh120.00,M-Pesa,Completed,3,+254734333444
+BK0255,Olivia Maina,756555666,Female,Nairobi,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,2-Dec-24,8:00 AM,Economy,2,Ksh120.00,Ksh240.00,Card,Completed,3,+254756555666
+BK0259,Tabitha Karanja,790999000,Female,Nairobi,RT003,Nairobi,Nakuru,KDE 678G,Bus,Peter Ngugi,4.3,6-Dec-24,7:00 PM,Economy,2,Ksh450.00,Ksh900.00,M-Pesa,Completed,2,+254790999000
+BK0261,Alice Mwangi,712345678,Female,Nairobi,RT001,Nairobi,Mombasa,KDC 112E,Minibus,Hassan Abdi,4.1,9-Dec-24,4:00 PM,Economy,2,"Ksh1,200.00","Ksh2,400.00",Card,Completed,5,+254712345678
+BK0268,Henry Korir,0789012345,Male,Nairobi,RT001,Nairobi,Mombasa,KDE 678G,Bus,Peter Ngugi,4.3,19-Dec-24,1:00 PM,Economy,1,"Ksh1,200.00","Ksh1,200.00",M-Pesa,Completed,5,+254789012345
+BK0270,James Gitonga,,Male,Nairobi,RT005,Nairobi,Thika,KDA 567C,Matatu,Moses Kipchoge,4.8,21-Dec-24,7:00 PM,Economy,3,Ksh120.00,Ksh360.00,Cash,Completed,5,
+BK0271,Karen Adhiambo,712111222,Female,Nairobi,RT007,Nairobi,Nyeri,KDC 112E,Minibus,Hassan Abdi,4.1,22-Dec-24,6:00 AM,Economy,2,Ksh400.00,Ksh800.00,M-Pesa,Completed,3,+254712111222
+BK0273,Mary Waweru,734333444,Female,Nairobi,RT004,Nairobi,Eldoret,KCB 234B,Bus,Brian Kamau,4.2,24-Dec-24,5:30 PM,Economy,3,Ksh800.00,"Ksh2,400.00",Card,Completed,5,+254734333444
+BK0279,Tabitha Karanja,790999000,Female,Nairobi,RT010,Nairobi,Naivasha,KDF 901H,Matatu,Isaac Korir,3.8,31-Dec-24,9:00 AM,Economy,2,Ksh280.00,Ksh560.00,Card,Completed,4,+254790999000
+BK0281,Alice Mwangi,712345678,Female,Nairobi,RT004,Nairobi,Eldoret,KDB 890D,Matatu,Tony Karanja,3.9,2-Jan-25,2:30 PM,Economy,1,Ksh800.00,Ksh800.00,M-Pesa,Completed,3,+254712345678
+BK9001,John Doe,700000001,Male,Nairobi,RT001,Nairobi,Mombasa,KBZ 001A,Bus,Kelvin Omondi,4.5,10-Sep-24,6:00 AM,Economy,1,"Ksh1,200.00","Ksh1,200.00",M-Pesa,Completed,4,+254700000001
+BK9004,David Mutua,254745678901,Male,Nairobi,RT004,Nairobi,Eldoret,KDB 890D,Matatu,Tony Karanja,3.9,25-Sep-24,10:30 AM,Business,1,"Ksh1,200.00","Ksh1,200.00",Card,Completed,0,+254745678901
+BK9005,Alice Mwangi,712345678,Female,Nairobi,RT005,Nairobi,Thika,KDE 678G,Bus,Samuel Gitonga,4.6,28-Oct-24,6:00 AM,Economy,2,Ksh120.00,Ksh240.00,M-Pesa,Completed,5,+254712345678
+BK9006,Alice Mwangi,712345678,Female,Nairobi,RT005,Nairobi,Thika,KDE 678G,Bus,Samuel Gitonga,4.6,30-Oct-24,6:00 AM,Economy,2,Ksh120.00,Ksh240.00,M-Pesa,Completed,4,+254712345678
+BK0035,Olivia Maina,756555666,Female,Nairobi,RT006,Mombasa,Malindi,KDB 890D,Matatu,Tony Karanja,3.9,20-Feb-24,9:00 PM,Economy,1,Ksh350.00,Ksh350.00,M-Pesa,Completed,5,+254756555666
+BK0048,Henry Korir,0789012345,Male,Nairobi,RT008,Kisumu,Kakamega,KDF 901H,Matatu,Isaac Korir,3.8,11-Mar-24,9:00 PM,Economy,1,Ksh180.00,Ksh180.00,Cash,Completed,3,+254789012345
+BK0064,David Kamau,745678901,Male,Nairobi,RT008,Kisumu,Kakamega,KDB 890D,Matatu,Tony Karanja,3.9,29-Mar-24,2:30 PM,Economy,2,Ksh180.00,Ksh360.00,M-Pesa,Completed,5,+254745678901
+BK0071,Karen Adhiambo,254712111222,Female,Nairobi,RT006,Mombasa,Malindi,KDB 890D,Matatu,Tony Karanja,3.9,6-Apr-24,9:00 AM,Economy,1,Ksh350.00,Ksh350.00,M-Pesa,Completed,3,+254712111222
+BK0075,Olivia Maina,756555666,Female,Nairobi,RT008,Kisumu,Kakamega,KDD 345F,Minibus,Samuel Gitonga,4.6,4-Nov-24,12:00 PM,Economy,1,Ksh180.00,Ksh180.00,Card,Completed,3,+254756555666
+BK0081,Alice Mwangi,712345678,Female,Nairobi,RT006,Mombasa,Malindi,KDD 345F,Minibus,Samuel Gitonga,4.6,20-Apr-24,7:30 AM,Economy,2,Ksh350.00,Ksh700.00,Card,Completed,3,+254712345678
+BK0104,David Kamau,745678901,Male,Nairobi,RT008,Kisumu,Kakamega,KDB 890D,Matatu,Tony Karanja,3.9,17-May-24,9:00 PM,Economy,1,Ksh180.00,Ksh180.00,Cash,Completed,5,+254745678901
+BK0115,Olivia Maina,254756555666,Female,Nairobi,RT008,Kisumu,Kakamega,KDD 345F,Minibus,Samuel Gitonga,4.6,30-May-24,5:30 PM,Economy,2,Ksh180.00,Ksh360.00,M-Pesa,Completed,3,+254756555666
+BK0146,Felix Hassan,767890123,Male,Nairobi,RT006,Mombasa,Malindi,KCB 234B,Bus,Brian Kamau,4.2,8-Jul-24,7:30 AM,Economy,2,Ksh350.00,Ksh700.00,Cash,Completed,5,+254767890123
+BK0153,Mary Waweru,734333444,Female,Nairobi,RT006,Mombasa,Malindi,KDB 890D,Matatu,Tony Karanja,3.9,18-Jul-24,9:00 PM,Economy,3,Ksh350.00,"Ksh1,050.00",Card,Completed,0,+254734333444
+BK0175,Olivia Maina,756555666,Female,Nairobi,RT006,Mombasa,Malindi,KDF 901H,Matatu,Isaac Korir,3.8,20-Aug-24,2:30 PM,Economy,1,Ksh350.00,Ksh350.00,M-Pesa,Completed,0,+254756555666
+BK0184,David Kamau,745678901,Male,Nairobi,RT006,Mombasa,Malindi,KCB 234B,Bus,Brian Kamau,4.2,4-Sep-24,12:00 PM,Economy,3,Ksh350.00,"Ksh1,050.00",M-Pesa,Completed,3,+254745678901
+BK0186,Felix Hassan,767890123,Male,Nairobi,RT006,Mombasa,Malindi,KCB 234B,Bus,Brian Kamau,4.2,9-Sep-24,12:00 PM,Economy,3,Ksh350.00,"Ksh1,050.00",Cash,Completed,3,+254767890123
+BK0206,Felix Hassan,767890123,Male,Nairobi,RT008,Kisumu,Kakamega,KDF 901H,Matatu,Isaac Korir,3.8,2-Oct-24,9:00 AM,Economy,3,Ksh180.00,Ksh540.00,Cash,Completed,2,+254767890123
+BK0246,Felix Hassan,0767890123,Male,Nairobi,RT008,Kisumu,Kakamega,KDF 901H,Matatu,Isaac Korir,3.8,20-Nov-24,2:30 PM,Economy,2,Ksh180.00,Ksh360.00,Cash,Completed,5,+254767890123
+BK0250,James Gitonga,701234567,Male,Nairobi,RT006,Mombasa,Malindi,KDF 901H,Matatu,Isaac Korir,3.8,24-Nov-24,9:00 AM,Economy,1,Ksh350.00,Ksh350.00,M-Pesa,Completed,4,+254701234567
+BK0275,Olivia Maina,756555666,Female,Nairobi,RT008,Kisumu,Kakamega,KDD 345F,Minibus,Samuel Gitonga,4.6,26-Dec-24,7:30 AM,Economy,1,Ksh180.00,Ksh180.00,M-Pesa,Completed,2,+254756555666
+BK0018,Samuel Odhiambo,789888999,Male,Kisumu,RT008,Kisumu,Kakamega,KCB 234B,Bus,Brian Kamau,4.2,29-Jan-24,12:00 PM,Economy,2,Ksh180.00,Ksh360.00,Cash,Completed,2,+254789888999
+BK0023,Carol Wanjiku,734567890,Female,Kisumu,RT008,Kisumu,Kakamega,KDB 890D,Matatu,Tony Karanja,3.9,3-Feb-24,9:00 AM,Economy,3,Ksh180.00,Ksh540.00,M-Pesa,Completed,2,+254734567890
+BK0036,Patrick Ngugi,767666777,Male,Nyeri,RT008,Kisumu,Kakamega,KDD 345F,Minibus,Samuel Gitonga,4.6,21-Feb-24,7:30 AM,Economy,1,Ksh180.00,Ksh180.00,Mpesa,Completed,3,+254767666777
+BK0052,Liam Mutua,723222333,Male,Machakos,RT006,Mombasa,Malindi,KDF 901H,Matatu,Isaac Korir,3.8,15-Mar-24,2:30 PM,Business,1,Ksh525.00,Ksh525.00,M-Pesa,Completed,2,+254723222333
+BK0063,Carol Wanjiku,734567890,Female,Kisumu,RT006,Mombasa,Malindi,KCB 234B,Bus,Brian Kamau,4.2,28-Mar-24,12:00 PM,Business,3,Ksh350.00,"Ksh1,050.00",Card,Completed,5,+254734567890
+BK0067,Grace Achieng,778901234,Female,Eldoret,RT008,Kisumu,Kakamega,KDB 890D,Matatu,Tony Karanja,3.9,2-Apr-24,2:30 PM,Business,1,Ksh270.00,Ksh270.00,M-Pesa,Completed,5,+254778901234
+BK0074,Nathan Kipchoge,745444555,Male,Eldoret,RT006,Mombasa,Malindi,KDB 890D,Matatu,Tony Karanja,3.9,10-Apr-24,9:00 AM,Economy,3,Ksh350.00,"Ksh1,050.00",Cash,Completed,5,+254745444555
+BK0076,Patrick Ngugi,767666777,Male,Nyeri,RT006,Mombasa,Malindi,KDB 890D,Matatu,Tony Karanja,3.9,15-Apr-24,9:00 AM,Economy,3,Ksh350.00,"Ksh1,050.00",M-Pesa,Completed,5,+254767666777
+BK0077,Rachel Mwenda,778777888,Female,Meru,RT008,Kisumu,Kakamega,KDD 345F,Minibus,Samuel Gitonga,4.6,16-Apr-24,12:00 PM,Business,1,Ksh270.00,Ksh270.00,M-Pesa,Completed,5,+254778777888
+BK0082,Brian Otieno,723456789,Male,Mombasa,RT008,Kisumu,Kakamega,KDF 901H,Matatu,Isaac Korir,3.8,21-Apr-24,9:00 AM,Business,1,Ksh270.00,Ksh270.00,M-Pesa,Completed,4,+254723456789
+BK0103,Carol Wanjiku,734567890,Female,Kisumu,RT006,Mombasa,Malindi,KCB 234B,Bus,Brian Kamau,4.2,16-May-24,5:30 PM,Economy,1,Ksh350.00,Ksh350.00,M-Pesa,Completed,2,+254734567890
+BK0114,Nathan Kipchoge,0745444555,Male,Eldoret,RT006,Mombasa,Malindi,KDB 890D,Matatu,Tony Karanja,3.9,29-May-24,2:30 PM,Economy,2,Ksh350.00,Ksh700.00,Cash,Completed,3,+254745444555
+BK0127,Grace Achieng,778901234,Female,Eldoret,RT008,Kisumu,Kakamega,KDF 901H,Matatu,Isaac Korir,3.8,11-Jun-24,2:30 PM,Business,1,Ksh270.00,Ksh270.00,M-Pesa,Completed,3,+254778901234
+BK0144,David Kamau,745678901,Male,none,RT006,Mombasa,Malindi,KCB 234B,Bus,Brian Kamau,4.2,3-Jul-24,7:30 AM,Economy,3,Ksh350.00,"Ksh1,050.00",Cash,Completed,3,+254745678901
+BK0145,Esther Njoroge,756789012,Male,Nakuru,RT008,Kisumu,Kakamega,KDB 890D,Matatu,Tony Karanja,3.9,4-Jul-24,9:00 AM,Economy,1,Ksh180.00,Ksh180.00,M-Pesa,Completed,3,+254756789012
+BK0147,Grace Achieng,778901234,Female,Eldoret,RT008,Kisumu,Kakamega,KDB 890D,Matatu,Tony Karanja,3.9,9-Jul-24,9:00 AM,Business,1,Ksh270.00,Ksh270.00,Card,Completed,2,+254778901234
+BK0156,Patrick Ngugi,767666777,Male,Nyeri,RT006,Mombasa,Malindi,KDB 890D,Matatu,Tony Karanja,3.9,22-Jul-24,9:00 PM,Economy,1,Ksh350.00,Ksh350.00,Cash,Completed,2,+254767666777
+BK0157,  Rachel Mwenda,778777888,Female,Meru,RT008,Kisumu,Kakamega,KDD 345F,Minibus,Samuel Gitonga,4.6,23-Jul-24,7:30 AM,Business,1,Ksh270.00,Ksh270.00,M-Pesa,Completed,3,+254778777888
+BK0178,Samuel Odhiambo,789888999,Male,Kisumu,RT008,Kisumu,Kakamega,KCB 234B,Bus,Brian Kamau,4.2,26-Aug-24,5:30 PM,Economy,1,Ksh180.00,Ksh180.00,M-Pesa,Completed,5,+254789888999
+BK0185,Esther Njoroge,756789012,Female,Nakuru,RT008,Kisumu,Kakamega,KDB 890D,Matatu,Tony Karanja,3.9,9-May-24,2:30 PM,Economy,3,Ksh180.00,Ksh540.00,M-Pesa,Completed,5,+254756789012
+BK0187,Grace Achieng,778901234,Female,Eldoret,RT008,Kisumu,Kakamega,KDB 890D,Matatu,Tony Karanja,3.9,10-Sep-24,2:30 PM,Business,1,Ksh270.00,Ksh270.00,M-Pesa,Completed,4,+254778901234
+BK0205,Esther Njoroge,756789012,Female,Nakuru,RT006,Mombasa,Malindi,KDD 345F,Minibus,Samuel Gitonga,4.6,10-Jan-24,7:30 AM,Economy,1,Ksh350.00,Ksh350.00,M-Pesa,Completed,3,+254756789012
+BK0214,Nathan Kipchoge,745444555,Male,Eldoret,RT008,Kisumu,Kakamega,KCB 234B,Bus,Brian Kamau,4.2,11-Oct-24,7:30 AM,Economy,3,Ksh180.00,Ksh540.00,M-Pesa,Completed,5,+254745444555
+BK0223,  Carol Wanjiku,734567890,Female,Kisumu,RT006,Mombasa,Malindi,KCB 234B,Bus,Brian Kamau,4.2,24-Oct-24,5:30 PM,Economy,1,Ksh350.00,Ksh350.00,M-Pesa,Completed,4,+254734567890
+BK0243,Carol Wanjiku,734567890,Female,Kisumu,RT008,Kisumu,Kakamega,KDF 901H,Matatu,Isaac Korir,3.8,16-Nov-24,2:30 PM,Economy,1,Ksh180.00,Ksh180.00,Card,Completed,2,+254734567890
+BK0245,  Esther Njoroge,756789012,Female,Nakuru,RT006,Mombasa,Malindi,KDD 345F,Minibus,Samuel Gitonga,4.6,19-Nov-24,12:00 PM,Economy,1,Ksh350.00,Ksh350.00,M-Pesa,Completed,4,+254756789012
+BK0274,Nathan Kipchoge,745444555,Male,Eldoret,RT006,Mombasa,Malindi,KDB 890D,Matatu,Tony Karanja,3.9,25-Dec-24,9:00 PM,Economy,2,Ksh350.00,Ksh700.00,M-Pesa,Completed,4,+254745444555
+BK0278,Samuel Odhiambo,789888999,Male,Kisumu,RT008,Kisumu,Kakamega,KDD 345F,Minibus,Samuel Gitonga,4.6,30-Dec-24,7:30 AM,Economy,1,Ksh180.00,Ksh180.00,Card,Completed,3,+254789888999
+BK0282,Brian Otieno,723456789,Male,Mombasa,RT006,Mombasa,Malindi,KDD 345F,Minibus,Samuel Gitonga,4.6,3-Jan-25,5:30 PM,Business,1,Ksh525.00,Ksh525.00,Cash,Completed,4,+254723456789
+BK0283,Carol Wanjiku,734567890,Female,Kisumu,RT008,Kisumu,Kakamega,KDF 901H,Matatu,Isaac Korir,3.8,4-Jan-25,9:00 PM,Economy,2,Ksh180.00,Ksh360.00,M-Pesa,Completed,4,+254734567890
+BK0002,Brian Otieno,723456789,Male,Mombasa,RT003,Nairobi,Nakuru,KDA 567C,Matatu,Moses Kipchoge,4.8,9-Jan-24,8:00 AM,Business,1,Ksh675.00,Ksh675.00,Cash,Completed,4,+254723456789
+BK0003,  Carol Wanjiku,734567890,Female,Kisumu,RT005,Nairobi,Thika,KDC 112E,Minibus,Hassan Abdi,4.1,10-Jan-24,10:30 AM,Economy,1,Ksh120.00,Ksh120.00,Card,Completed,5,+254734567890
+BK0005,Esther Njoroge,254756789012,Female,Nakuru,RT005,Nairobi,Thika,KDC 112E,Minibus,Hassan Abdi,4.1,15-Jan-24,10:30 AM,Economy,2,Ksh120.00,Ksh240.00,M-Pesa,Completed,5,+254756789012
+BK0007,Grace Achieng,778901234,Female,Eldoret,RT009,Nairobi,Machakos,KBZ 001A,Bus,Kelvin Omondi,4.5,17-Jan-24,4:00 PM,Business,1,Ksh300.00,Ksh300.00,M-Pesa,Completed,4,+254778901234
+BK0009,Irene Chebet,790123456,Female,Thika,RT003,Nairobi,Nakuru,KDC 112E,Minibus,Hassan Abdi,4.1,19-Jan-24,6:00 AM,Economy,1,Ksh450.00,Ksh450.00,Card,Completed,5,+254790123456
+BK0012,Liam Mutua,723222333,Male,none,RT003,Nairobi,Nakuru,KDC 112E,Minibus,Hassan Abdi,4.1,23-Jan-24,6:00 AM,Business,1,Ksh675.00,Ksh675.00,Cash,Completed,2,+254723222333
+BK0016,Patrick Ngugi,767666777,Male,Nyeri,RT001,Nairobi,Mombasa,KDC 112E,Minibus,Hassan Abdi,4.1,27-Jan-24,4:00 PM,Economy,2,"Ksh1,200.00","Ksh2,400.00",M-Pesa,Completed,5,+254767666777
+BK0017,Rachel Mwenda,778777888,Female,Meru,RT003,Nairobi,Nakuru,KDE 678G,Bus,Peter Ngugi,4.3,28-Jan-24,7:00 PM,Business,1,Ksh675.00,Ksh675.00,M-Pesa,Completed,5,+254778777888
+BK0020,Victor Abdi,701000111,Male,Mombasa,RT002,Nairobi,Kisumu,KDD 345F,Minibus,Samuel Gitonga,4.6,31-Jan-24,5:30 PM,Economy,1,Ksh900.00,Ksh900.00,Cash,Completed,3,+254701000111
+BK0025,  Esther Njoroge,756789012,Female,Nakuru,RT005,Nairobi,Thika,KBZ 001A,Bus,Kelvin Omondi,4.5,5-Feb-24,6:00 AM,Economy,2,Ksh120.00,Ksh240.00,M-Pesa,Completed,2,+254756789012
+BK0027,Grace Achieng,254778901234,Female,Eldoret,RT009,Nairobi,Machakos,KDC 112E,Minibus,Hassan Abdi,4.1,7-Feb-24,10:30 AM,Business,1,Ksh300.00,Ksh300.00,Card,Completed,5,+254778901234
+BK0029,Irene Chebet,790123456,Female,Thika,RT009,Nairobi,Machakos,KDC 112E,Minibus,Hassan Abdi,4.1,2-Dec-24,10:30 AM,Economy,1,Ksh200.00,Ksh200.00,M-Pesa,Completed,4,+254790123456
+BK0032,Liam Mutua,723222333,Male,Machakos,RT005,Nairobi,Thika,KDA 567C,Matatu,Moses Kipchoge,4.8,15-Feb-24,7:00 PM,Business,1,Ksh180.00,Ksh180.00,Cash,Completed,3,+254723222333
+BK0034,Nathan Kipchoge,745444555,Male,none,RT004,Nairobi,Eldoret,KCB 234B,Bus,Brian Kamau,4.2,19-Feb-24,5:30 PM,Economy,3,Ksh800.00,"Ksh2,400.00",M-Pesa,Completed,3,+254745444555
+BK0037,Rachel Mwenda,778777888,Female,Meru,RT010,Nairobi,Naivasha,KDF 901H,Matatu,Isaac Korir,3.8,22-Feb-24,9:00 AM,Business,1,Ksh420.00,Ksh420.00,M-Pesa,Completed,3,+254778777888
+BK0038,Samuel Odhiambo,789888999,Male,Kisumu,RT002,Nairobi,Kisumu,KCB 234B,Bus,Brian Kamau,4.2,23-Feb-24,12:00 PM,Economy,2,Ksh900.00,"Ksh1,800.00",Cash,Completed,3,+254789888999
+BK0040,Victor Abdi,701000111,Male,Mombasa,RT001,Nairobi,Mombasa,KBZ 001A,Bus,Kelvin Omondi,4.5,27-Feb-24,10:30 AM,Economy,1,"Ksh1,200.00","Ksh1,200.00",M-Pesa,Completed,3,+254701000111
+BK0043,Carol Wanjiku,734567890,Female,Kisumu,RT003,Nairobi,Nakuru,KDA 567C,Matatu,Moses Kipchoge,4.8,4-Mar-24,1:00 PM,Economy,2,Ksh450.00,Ksh900.00,M-Pesa,Completed,6,+254734567890
+BK0045,Esther Njoroge,756789012,Female,Nakuru,RT007,Nairobi,Nyeri,KDE 678G,Bus,Peter Ngugi,4.3,6-Mar-24,7:00 PM,Economy,2,Ksh400.00,Ksh800.00,Card,Completed,2,+254756789012
+BK0047,  Grace Achieng,778901234,Female,Eldoret,RT001,Nairobi,Mombasa,KDA 567C,Matatu,Moses Kipchoge,4.8,8-Mar-24,8:00 AM,Business,1,"Ksh1,800.00","Ksh1,800.00",M-Pesa,Completed,5,+254778901234
+BK0049,Irene Chebet,254790123456,Female,Thika,RT010,Nairobi,Naivasha,KCB 234B,Bus,Brian Kamau,4.2,12-Mar-24,7:30 AM,Economy,3,Ksh280.00,Ksh840.00,M-Pesa,Completed,2,+254790123456
+BK0054,Nathan Kipchoge,745444555,Male,Eldoret,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,19-Mar-24,1:00 PM,Economy,1,Ksh120.00,Ksh120.00,Cash,Completed,4,+254745444555
+BK0057,Rachel Mwenda,778777888,Female,Meru,RT001,Nairobi,Mombasa,KDC 112E,Minibus,Hassan Abdi,4.1,22-Mar-24,6:00 AM,Business,1,"Ksh1,800.00","Ksh1,800.00",Card,Completed,4,+254778777888
+BK0058,Samuel Odhiambo,789888999,Male,Kisumu,RT003,Nairobi,Nakuru,KDE 678G,Bus,Peter Ngugi,4.3,23-Mar-24,8:00 AM,Economy,3,Ksh450.00,"Ksh1,350.00",Mpesa,Completed,5,+254789888999
+BK0060,Victor Abdi,701000111,Male,Mombasa,RT010,Nairobi,Naivasha,KDB 890D,Matatu,Tony Karanja,3.9,25-Mar-24,9:00 PM,Economy,3,Ksh280.00,Ksh840.00,Cash,Completed,2,+254701000111
+BK0062,Brian Otieno,723456789,Male,Mombasa,RT004,Nairobi,Eldoret,KDF 901H,Matatu,Isaac Korir,3.8,27-Mar-24,9:00 AM,Business,1,"Ksh1,200.00","Ksh1,200.00",Cash,Completed,5,+254723456789
+BK0065,Esther Njoroge,756789012,Female,Nakuru,RT010,Nairobi,Naivasha,KDD 345F,Minibus,Samuel Gitonga,4.6,30-Mar-24,5:30 PM,Economy,3,Ksh280.00,Ksh840.00,M-Pesa,Completed,0,+254756789012
+BK0069,  Irene Chebet,790123456,Female,Thika,RT002,Nairobi,Kisumu,KDF 901H,Matatu,Isaac Korir,3.8,4-Apr-24,9:00 PM,Economy,1,Ksh900.00,Ksh900.00,Card,Completed,5,+254790123456
+BK0072,Liam Mutua,,Male,Machakos,RT002,Nairobi,Kisumu,KDF 901H,Matatu,Isaac Korir,3.8,8-Apr-24,9:00 PM,Business,1,"Ksh1,350.00","Ksh1,350.00",Cash,Completed,4,
+BK0078,Samuel Odhiambo,789888999,Male,none,RT010,Nairobi,Naivasha,KDF 901H,Matatu,Isaac Korir,3.8,17-Apr-24,2:30 PM,Economy,3,Ksh280.00,Ksh840.00,Cash,Completed,2,+254789888999
+BK0080,Victor Abdi,701000111,Male,Mombasa,RT004,Nairobi,Eldoret,KDB 890D,Matatu,Tony Karanja,3.9,19-Apr-24,9:00 PM,Economy,1,Ksh800.00,Ksh800.00,M-Pesa,Completed,2,+254701000111
+BK0083,Carol Wanjiku,734567890,Female,Kisumu,RT003,Nairobi,Nakuru,KDA 567C,Matatu,Moses Kipchoge,4.8,22-Apr-24,7:00 PM,Economy,1,Ksh450.00,Ksh450.00,M-Pesa,Completed,3,+254734567890
+BK0085,Esther Njoroge,756789012,Female,Nakuru,RT007,Nairobi,Nyeri,KDE 678G,Bus,Peter Ngugi,4.3,24-Apr-24,8:00 AM,Economy,3,Ksh400.00,"Ksh1,200.00",M-Pesa,Completed,5,+254756789012
+BK0087,Grace Achieng,778901234,Female,Eldoret,RT007,Nairobi,Nyeri,KDE 678G,Bus,Peter Ngugi,4.3,29-Apr-24,8:00 AM,Business,1,Ksh600.00,Ksh600.00,Card,Completed,6,+254778901234
+BK0089,Irene Chebet,790123456,Female,Thika,RT001,Nairobi,Mombasa,KDA 567C,Matatu,Moses Kipchoge,4.8,1-May-24,1:00 PM,Economy,1,"Ksh1,200.00","Ksh1,200.00",M-Pesa,Completed,3,+254790123456
+BK0092,Liam Mutua,0723222333,Male,Machakos,RT007,Nairobi,Nyeri,KBZ 001A,Bus,Kelvin Omondi,4.5,4-May-24,6:00 AM,Business,1,Ksh600.00,Ksh600.00,Cash,Completed,2,+254723222333
+BK0094,Nathan Kipchoge,,Male,Eldoret,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,7-May-24,7:00 PM,Economy,2,Ksh120.00,Ksh240.00,M-Pesa,Completed,2,
+BK0096,Patrick Ngugi,767666777,Male,Nyeri,RT009,Nairobi,Machakos,KDA 567C,Matatu,Moses Kipchoge,4.8,9-May-24,8:00 AM,Economy,2,Ksh200.00,Ksh400.00,Cash,Completed,5,+254767666777
+BK0097,Rachel Mwenda,778777888,Female,Meru,RT001,Nairobi,Mombasa,KDC 112E,Minibus,Hassan Abdi,4.1,5-Oct-24,10:30 AM,Business,1,"Ksh1,800.00","Ksh1,800.00",M-Pesa,Completed,4,+254778777888
+BK0100,Victor Abdi,701000111,Male,none,RT010,Nairobi,Naivasha,KDB 890D,Matatu,Tony Karanja,3.9,13-May-24,9:00 AM,Economy,2,Ksh280.00,Ksh560.00,M-Pesa,Completed,5,+254701000111
+BK0102,Brian Otieno,723456789,Male,Mombasa,RT004,Nairobi,Eldoret,KDF 901H,Matatu,Isaac Korir,3.8,15-May-24,2:30 PM,Business,1,"Ksh1,200.00","Ksh1,200.00",Card,Completed,4,+254723456789
+BK0105,Esther Njoroge,756789012,Female,Nakuru,RT010,Nairobi,Naivasha,KDD 345F,Minibus,Samuel Gitonga,4.6,18-May-24,7:30 AM,Economy,1,Ksh280.00,Ksh280.00,Card,Completed,2,+254756789012
+BK0107,Grace Achieng,778901234,Female,Eldoret,RT007,Nairobi,Nyeri,KDA 567C,Matatu,Moses Kipchoge,4.8,20-May-24,7:00 PM,Economy,1,Ksh600.00,Ksh600.00,M-Pesa,Completed,3,+254778901234
+BK0109,Irene Chebet,790123456,Female,Thika,RT001,Nairobi,Mombasa,KDE 678G,Bus,Peter Ngugi,4.3,22-May-24,8:00 AM,Economy,1,"Ksh1,200.00","Ksh1,200.00",M-Pesa,Completed,0,+254790123456
+BK0116,Patrick Ngugi,,Male,Nyeri,RT010,Nairobi,Naivasha,KDF 901H,Matatu,Isaac Korir,3.8,31-May-24,9:00 PM,Economy,3,Ksh280.00,Ksh840.00,Cash,Completed,3,
+BK0117,Rachel Mwenda,778777888,Female,Meru,RT002,Nairobi,Kisumu,KCB 234B,Bus,Brian Kamau,4.2,6-Jan-24,7:30 AM,Business,1,"Ksh1,350.00","Ksh1,350.00",Card,Completed,5,+254778777888
+BK0118,Samuel Odhiambo,789888999,Male,Kisumu,RT004,Nairobi,Eldoret,KDB 890D,Matatu,Tony Karanja,3.9,2-Jun-24,9:00 AM,Economy,1,Ksh800.00,Ksh800.00,M-Pesa,Completed,4,+254789888999
+BK0120,Victor Abdi,701000111,Male,Mombasa,RT001,Nairobi,Mombasa,KBZ 001A,Bus,Kelvin Omondi,4.5,4-Jun-24,6:00 AM,Economy,2,"Ksh1,200.00","Ksh2,400.00",Cash,Completed,4,+254701000111
+BK0122,Brian Otieno,723456789,Male,none,RT005,Nairobi,Thika,KDC 112E,Minibus,Hassan Abdi,4.1,6-Jun-24,10:30 AM,Business,1,Ksh180.00,Ksh180.00,Cash,Completed,2,+254723456789
+BK0123,Carol Wanjiku,734567890,Female,Kisumu,RT007,Nairobi,Nyeri,KDE 678G,Bus,Peter Ngugi,4.3,7-Jun-24,1:00 PM,Economy,1,Ksh400.00,Ksh400.00,Card,Completed,3,+254734567890
+BK0129,Irene Chebet,790123456,Female,Thika,RT002,Nairobi,Kisumu,KDB 890D,Matatu,Tony Karanja,3.9,13-Jun-24,9:00 PM,Economy,2,Ksh900.00,"Ksh1,800.00",Card,Completed,5,+254790123456
+BK0134,Nathan Kipchoge,745444555,Male,Eldoret,RT007,Nairobi,Nyeri,KBZ 001A,Bus,Kelvin Omondi,4.5,20-Jun-24,10:30 AM,Economy,2,Ksh400.00,Ksh800.00,Cash,Completed,3,+254745444555
+BK0136,Patrick Ngugi,0767666777,Male,Nyeri,RT007,Nairobi,Nyeri,KBZ 001A,Bus,Kelvin Omondi,4.5,25-Jun-24,10:30 AM,Economy,2,Ksh400.00,Ksh800.00,M-Pesa,Completed,2,+254767666777
+BK0137,Rachel Mwenda,254778777888,Female,Meru,RT009,Nairobi,Machakos,KDA 567C,Matatu,Moses Kipchoge,4.8,26-Jun-24,1:00 PM,Business,1,Ksh300.00,Ksh300.00,M-Pesa,Completed,2,+254778777888
+BK0138,Samuel Odhiambo,,Male,Kisumu,RT001,Nairobi,Mombasa,KDC 112E,Minibus,Hassan Abdi,4.1,27-Jun-24,4:00 PM,Economy,1,"Ksh1,200.00","Ksh1,200.00",Cash,Completed,5,
+BK0142,Brian Otieno,723456789,Male,Mombasa,RT002,Nairobi,Kisumu,KDD 345F,Minibus,Samuel Gitonga,4.6,1-Jul-24,5:30 PM,Business,1,"Ksh1,350.00","Ksh1,350.00",M-Pesa,Completed,4,+254723456789
+BK0143,Carol Wanjiku,734567890,Female,Kisumu,RT004,Nairobi,Eldoret,KDF 901H,Matatu,Isaac Korir,3.8,2-Jul-24,9:00 PM,Economy,3,Ksh800.00,"Ksh2,400.00",M-Pesa,Completed,2,+254734567890
+BK0149,Irene Chebet,790123456,Female,Thika,RT002,Nairobi,Kisumu,KDF 901H,Matatu,Isaac Korir,3.8,11-Jul-24,2:30 PM,Economy,3,Ksh900.00,"Ksh2,700.00",M-Pesa,Completed,4,+254790123456
+BK0152,Liam Mutua,723222333,Male,Machakos,RT004,Nairobi,Eldoret,KCB 234B,Bus,Brian Kamau,4.2,17-Jul-24,5:30 PM,Business,1,"Ksh1,200.00","Ksh1,200.00",Cash,Completed,4,+254723222333
+BK0158,Samuel Odhiambo,0789888999,Male,Kisumu,RT010,Nairobi,Naivasha,KDF 901H,Matatu,Isaac Korir,3.8,24-Jul-24,9:00 AM,Economy,3,Ksh280.00,Ksh840.00,Cash,Completed,3,+254789888999
+BK0160,Victor Abdi,,Male,Mombasa,RT004,Nairobi,Eldoret,KDB 890D,Matatu,Tony Karanja,3.9,26-Jul-24,2:30 PM,Economy,3,Ksh800.00,"Ksh2,400.00",M-Pesa,Completed,3,
+BK0162,Brian Otieno,723456789,Male,Mombasa,RT003,Nairobi,Nakuru,KDA 567C,Matatu,Moses Kipchoge,4.8,30-Jul-24,1:00 PM,Business,1,Ksh675.00,Ksh675.00,Cash,Completed,3,+254723456789
+BK0163,Carol Wanjiku,734567890,Female,Kisumu,RT005,Nairobi,Thika,KDC 112E,Minibus,Hassan Abdi,4.1,31-Jul-24,4:00 PM,Economy,3,Ksh120.00,Ksh360.00,M-Pesa,Completed,4,+254734567890
+BK0165,Esther Njoroge,756789012,Female,Nakuru,RT005,Nairobi,Thika,KDC 112E,Minibus,Hassan Abdi,4.1,5-Aug-24,4:00 PM,Economy,3,Ksh120.00,Ksh360.00,Card,Completed,4,+254756789012
+BK0166,Felix Hassan,767890123,Male,none,RT007,Nairobi,Nyeri,KDE 678G,Bus,Peter Ngugi,4.3,6-Aug-24,7:00 PM,Economy,2,Ksh400.00,Ksh800.00,M-Pesa,Completed,2,+254767890123
+BK0167,Grace Achieng,778901234,Female,Eldoret,RT009,Nairobi,Machakos,KBZ 001A,Bus,Kelvin Omondi,4.5,7-Aug-24,6:00 AM,Business,1,Ksh300.00,Ksh300.00,M-Pesa,Completed,2,+254778901234
+BK0172,Liam Mutua,723222333,Male,Machakos,RT005,Nairobi,Thika,KDE 678G,Bus,Peter Ngugi,4.3,15-Aug-24,1:00 PM,Business,1,Ksh180.00,Ksh180.00,M-Pesa,Completed,4,+254723222333
+BK0174,Nathan Kipchoge,745444555,Male,Eldoret,RT004,Nairobi,Eldoret,KDD 345F,Minibus,Samuel Gitonga,4.6,19-Aug-24,12:00 PM,Economy,2,Ksh800.00,"Ksh1,600.00",Cash,Completed,2,+254745444555
+BK0177,Rachel Mwenda,778777888,Female,Meru,RT010,Nairobi,Naivasha,KDB 890D,Matatu,Tony Karanja,3.9,22-Aug-24,9:00 PM,Business,1,Ksh420.00,Ksh420.00,Card,Completed,4,+254778777888
+BK0180,Victor Abdi,0701000111,Male,Mombasa,RT002,Nairobi,Kisumu,KDD 345F,Minibus,Samuel Gitonga,4.6,28-Aug-24,7:30 AM,Economy,2,Ksh900.00,"Ksh1,800.00",Cash,Completed,4,+254701000111
+BK0183,Carol Wanjiku,734567890,Female,Kisumu,RT004,Nairobi,Eldoret,KDF 901H,Matatu,Isaac Korir,3.8,9-Mar-24,9:00 AM,Economy,1,Ksh800.00,Ksh800.00,Card,Completed,2,+254734567890
+BK0188,Henry Korir,789012345,Male,none,RT010,Nairobi,Naivasha,KDD 345F,Minibus,Samuel Gitonga,4.6,11-Sep-24,5:30 PM,Economy,3,Ksh280.00,Ksh840.00,Cash,Completed,4,+254789012345
+BK0189,Irene Chebet,790123456,Female,Thika,RT002,Nairobi,Kisumu,KDF 901H,Matatu,Isaac Korir,3.8,12-Sep-24,9:00 PM,Economy,1,Ksh900.00,Ksh900.00,Card,Completed,5,+254790123456
+BK0192,Liam Mutua,723222333,Male,Machakos,RT003,Nairobi,Nakuru,KBZ 001A,Bus,Kelvin Omondi,4.5,17-Sep-24,6:00 AM,Business,1,Ksh675.00,Ksh675.00,Cash,Completed,4,+254723222333
+BK0194,Nathan Kipchoge,745444555,Male,Eldoret,RT007,Nairobi,Nyeri,KDC 112E,Minibus,Hassan Abdi,4.1,19-Sep-24,10:30 AM,Economy,3,Ksh400.00,"Ksh1,200.00",Cash,Completed,5,+254745444555
+BK0197,Rachel Mwenda,778777888,Female,Meru,RT007,Nairobi,Nyeri,KDC 112E,Minibus,Hassan Abdi,4.1,23-Sep-24,10:30 AM,Business,1,Ksh600.00,Ksh600.00,M-Pesa,Completed,6,+254778777888
+BK0200,Victor Abdi,701000111,Male,Mombasa,RT003,Nairobi,Nakuru,KDA 567C,Matatu,Moses Kipchoge,4.8,26-Sep-24,7:00 PM,Economy,1,Ksh450.00,Ksh450.00,Cash,Completed,3,+254701000111
+BK0202,Brian Otieno,0723456789,Male,Mombasa,RT007,Nairobi,Nyeri,KDE 678G,Bus,Peter Ngugi,4.3,28-Sep-24,8:00 AM,Business,1,Ksh600.00,Ksh600.00,M-Pesa,Completed,2,+254723456789
+BK0203,Carol Wanjiku,254734567890,Female,Kisumu,RT009,Nairobi,Machakos,KBZ 001A,Bus,Kelvin Omondi,4.5,29-Sep-24,10:30 AM,Economy,2,Ksh200.00,Ksh400.00,M-Pesa,Completed,4,+254734567890
+BK0207,Grace Achieng,778901234,Female,Eldoret,RT010,Nairobi,Naivasha,KCB 234B,Bus,Brian Kamau,4.2,10-Mar-24,12:00 PM,Business,1,Ksh420.00,Ksh420.00,Card,Completed,3,+254778901234
+BK0209,Irene Chebet,790123456,Female,Thika,RT004,Nairobi,Eldoret,KDD 345F,Minibus,Samuel Gitonga,4.6,5-Oct-24,5:30 PM,Economy,3,Ksh800.00,"Ksh2,400.00",M-Pesa,Completed,3,+254790123456
+BK0212,Liam Mutua,723222333,Male,Machakos,RT004,Nairobi,Eldoret,KDD 345F,Minibus,Samuel Gitonga,4.6,9-Oct-24,5:30 PM,Business,1,"Ksh1,200.00","Ksh1,200.00",Card,Completed,5,+254723222333
+BK0216,Patrick Ngugi,767666777,Male,Nyeri,RT007,Nairobi,Nyeri,KBZ 001A,Bus,Kelvin Omondi,4.5,15-Oct-24,6:00 AM,Economy,1,Ksh400.00,Ksh400.00,Cash,Completed,4,+254767666777
+BK0217,Rachel Mwenda,778777888,Female,Meru,RT009,Nairobi,Machakos,KDA 567C,Matatu,Moses Kipchoge,4.8,16-Oct-24,8:00 AM,Economy,1,Ksh300.00,Ksh300.00,M-Pesa,Completed,3,+254778777888
+BK0218,Samuel Odhiambo,789888999,Male,Kisumu,RT001,Nairobi,Mombasa,KDC 112E,Minibus,Hassan Abdi,4.1,17-Oct-24,10:30 AM,Economy,2,"Ksh1,200.00","Ksh2,400.00",Cash,Completed,3,+254789888999
+BK0222,Brian Otieno,723456789,Male,Mombasa,RT004,Nairobi,Eldoret,KDF 901H,Matatu,Isaac Korir,3.8,23-Oct-24,2:30 PM,Business,1,"Ksh1,200.00","Ksh1,200.00",Cash,Completed,4,+254723456789
+BK0225,Esther Njoroge,254756789012,Female,Nakuru,RT010,Nairobi,Naivasha,KDD 345F,Minibus,Samuel Gitonga,4.6,26-Oct-24,7:30 AM,Economy,2,Ksh280.00,Ksh560.00,Card,Completed,4,+254756789012
+BK0227,Grace Achieng,778901234,Female,Eldoret,RT007,Nairobi,Nyeri,KDA 567C,Matatu,Moses Kipchoge,4.8,28-Oct-24,7:00 PM,Business,1,Ksh600.00,Ksh600.00,M-Pesa,Completed,3,+254778901234
+BK0229,Irene Chebet,790123456,Female,Thika,RT001,Nairobi,Mombasa,KDE 678G,Bus,Peter Ngugi,4.3,30-Oct-24,8:00 AM,Economy,1,"Ksh1,200.00","Ksh1,200.00",M-Pesa,Completed,4,+254790123456
+BK0232,Liam Mutua,723222333,Male,none,RT007,Nairobi,Nyeri,KDC 112E,Minibus,Hassan Abdi,4.1,2-Nov-24,4:00 PM,Business,1,Ksh600.00,Ksh600.00,M-Pesa,Completed,3,+254723222333
+BK0234,Nathan Kipchoge,745444555,Male,Eldoret,RT005,Nairobi,Thika,KDA 567C,Matatu,Moses Kipchoge,4.8,5-Nov-24,1:00 PM,Economy,2,Ksh120.00,Ksh240.00,Cash,Completed,4,+254745444555
+BK0236,Patrick Ngugi,767666777,Male,Nyeri,RT009,Nairobi,Machakos,KDE 678G,Bus,Peter Ngugi,4.3,7-Nov-24,7:00 PM,Economy,3,Ksh200.00,Ksh600.00,Cash,Completed,2,+254767666777
+BK0237,Rachel Mwenda,778777888,Female,Meru,RT001,Nairobi,Mombasa,KBZ 001A,Bus,Kelvin Omondi,4.5,8-Nov-24,6:00 AM,Business,1,"Ksh1,800.00","Ksh1,800.00",Card,Completed,5,+254778777888
+BK0240,Victor Abdi,701000111,Male,Mombasa,RT002,Nairobi,Kisumu,KCB 234B,Bus,Brian Kamau,4.2,13-Nov-24,7:30 AM,Economy,2,Ksh900.00,"Ksh1,800.00",Cash,Completed,4,+254701000111
+BK0247,Grace Achieng,254778901234,Female,Eldoret,RT010,Nairobi,Naivasha,KCB 234B,Bus,Brian Kamau,4.2,21-Nov-24,5:30 PM,Business,1,Ksh420.00,Ksh420.00,M-Pesa,Completed,4,+254778901234
+BK0249,Irene Chebet,790123456,Female,Thika,RT004,Nairobi,Eldoret,KDD 345F,Minibus,Samuel Gitonga,4.6,23-Nov-24,7:30 AM,Economy,2,Ksh800.00,"Ksh1,600.00",Card,Completed,4,+254790123456
+BK0254,Nathan Kipchoge,745444555,Male,none,RT007,Nairobi,Nyeri,KBZ 001A,Bus,Kelvin Omondi,4.5,28-Nov-24,10:30 AM,Economy,3,Ksh400.00,"Ksh1,200.00",Cash,Completed,5,+254745444555
+BK0256,Patrick Ngugi,767666777,Male,Nyeri,RT007,Nairobi,Nyeri,KBZ 001A,Bus,Kelvin Omondi,4.5,3-Dec-24,10:30 AM,Economy,3,Ksh400.00,"Ksh1,200.00",Mpesa,Completed,4,+254767666777
+BK0257,Rachel Mwenda,778777888,Female,Meru,RT009,Nairobi,Machakos,KDA 567C,Matatu,Moses Kipchoge,4.8,4-Dec-24,1:00 PM,Business,1,Ksh300.00,Ksh300.00,M-Pesa,Completed,3,+254778777888
+BK0258,Samuel Odhiambo,789888999,Male,Kisumu,RT001,Nairobi,Mombasa,KDC 112E,Minibus,Hassan Abdi,4.1,5-Dec-24,4:00 PM,Economy,2,"Ksh1,200.00","Ksh2,400.00",Cash,Completed,3,+254789888999
+BK0260,Victor Abdi,701000111,Male,Mombasa,RT005,Nairobi,Thika,KBZ 001A,Bus,Kelvin Omondi,4.5,7-Dec-24,6:00 AM,Economy,3,Ksh120.00,Ksh360.00,Cash,Completed,3,+254701000111
+BK0262,Brian Otieno,723456789,Male,Mombasa,RT003,Nairobi,Nakuru,KDE 678G,Bus,Peter Ngugi,4.3,10-Dec-24,7:00 PM,Business,1,Ksh675.00,Ksh675.00,M-Pesa,Completed,4,+254723456789
+BK0263,Carol Wanjiku,734567890,Female,Kisumu,RT005,Nairobi,Thika,KBZ 001A,Bus,Kelvin Omondi,4.5,11-Dec-24,6:00 AM,Economy,3,Ksh120.00,Ksh360.00,M-Pesa,Completed,6,+254734567890
+BK0265,Esther Njoroge,756789012,Female,Nakuru,RT005,Nairobi,Thika,KBZ 001A,Bus,Kelvin Omondi,4.5,16-Dec-24,6:00 AM,Economy,3,Ksh120.00,Ksh360.00,M-Pesa,Completed,4,+254756789012
+BK0267,  Grace Achieng,778901234,Female,Eldoret,RT009,Nairobi,Machakos,KDC 112E,Minibus,Hassan Abdi,4.1,18-Dec-24,10:30 AM,Business,1,Ksh300.00,Ksh300.00,Card,Completed,4,+254778901234
+BK0269,Irene Chebet,254790123456,Female,Thika,RT003,Nairobi,Nakuru,KBZ 001A,Bus,Kelvin Omondi,4.5,20-Dec-24,4:00 PM,Economy,3,Ksh450.00,"Ksh1,350.00",M-Pesa,Completed,5,+254790123456
+BK0272,Liam Mutua,723222333,Male,Machakos,RT002,Nairobi,Kisumu,KDF 901H,Matatu,Isaac Korir,3.8,23-Dec-24,2:30 PM,Business,1,"Ksh1,350.00","Ksh1,350.00",Cash,Completed,5,+254723222333
+BK0276,Patrick Ngugi,767666777,Male,none,RT010,Nairobi,Naivasha,KDF 901H,Matatu,Isaac Korir,3.8,27-Dec-24,9:00 AM,Economy,1,Ksh280.00,Ksh280.00,Cash,Completed,3,+254767666777
+BK0277,Rachel Mwenda,778777888,Female,Meru,RT002,Nairobi,Kisumu,KCB 234B,Bus,Brian Kamau,4.2,28-Dec-24,12:00 PM,Business,1,"Ksh1,350.00","Ksh1,350.00",M-Pesa,Completed,5,+254778777888
+BK9002,Jane Smith,700000002,Female,Mombasa,RT002,Nairobi,Kisumu,KCB 234B,Bus,Brian Kamau,4.2,15-Sep-24,7:30 AM,Economy,0,Ksh900.00,-Ksh900.00,Cash,Completed,3,+254700000002
+BK9003,Grace Wanjiru,700000003,Female,Kisumu,RT003,Nairobi,Nakuru,KDA 567C,Matatu,Moses Kipchoge,4.8,20-Sep-24,9:00 AM,Economy,1,Ksh450.00,Ksh450.00,Mpesa,Completed,7,+254700000003
+BK0014,Nathan Kipchoge,745444555,Male,Eldoret,RT007,Nairobi,Nyeri,KBZ 001A,Bus,Kelvin Omondi,4.5,25-Jan-24,10:30 AM,Economy,2,Ksh400.00,Ksh800.00,Card,Cancelled,0,+254745444555
+BK0022,Brian Otieno,723456789,Male,Mombasa,RT006,Mombasa,Malindi,KCB 234B,Bus,Brian Kamau,4.2,2-Feb-24,7:30 AM,Business,1,Ksh525.00,Ksh525.00,M-Pesa,No Show,0,+254723456789
+BK0028,Henry Korir,,Male,Nairobi,RT001,Nairobi,Mombasa,KDE 678G,Bus,Peter Ngugi,4.3,8-Feb-24,1:00 PM,Economy,3,"Ksh1,200.00","Ksh3,600.00",M-Pesa,Cancelled,0,
+BK0042,Brian Otieno,723456789,Male,Mombasa,RT005,Nairobi,Thika,KDC 112E,Minibus,Hassan Abdi,4.1,29-Feb-24,4:00 PM,Business,1,Ksh180.00,Ksh180.00,Cash,Cancelled,0,+254723456789
+BK0044,David Kamau,745678901,Male,Nairobi,RT005,Nairobi,Thika,KDC 112E,Minibus,Hassan Abdi,4.1,5-Mar-24,4:00 PM,Economy,3,Ksh120.00,Ksh360.00,Cash,No Show,0,+254745678901
+BK0056,Patrick Ngugi,767666777,Male,none,RT009,Nairobi,Machakos,KDA 567C,Matatu,Moses Kipchoge,4.8,21-Mar-24,7:00 PM,Economy,3,Ksh200.00,Ksh600.00,Cash,Cancelled,0,+254767666777
+BK0059,Tabitha Karanja,790999000,Female,Nairobi,RT005,Nairobi,Thika,KBZ 001A,Bus,Kelvin Omondi,4.5,24-Mar-24,10:30 AM,Economy,3,Ksh120.00,Ksh360.00,M-Pesa,No Show,3,+254790999000
+BK0066,Felix Hassan,767890123,Male,Nairobi,RT006,Mombasa,Malindi,KCB 234B,Bus,Brian Kamau,4.2,1-Apr-24,12:00 PM,Economy,1,Ksh350.00,Ksh350.00,Cash,No Show,0,+254767890123
+BK0070,James Gitonga,0701234567,Male,Nairobi,RT004,Nairobi,Eldoret,KCB 234B,Bus,Brian Kamau,4.2,5-Apr-24,7:30 AM,Economy,2,Ksh800.00,"Ksh1,600.00",M-Pesa,Cancelled,0,+254701234567
+BK0084,David Kamau,745678901,Male,Nairobi,RT005,Nairobi,Thika,KDC 112E,Minibus,Hassan Abdi,4.1,23-Apr-24,6:00 AM,Economy,1,Ksh120.00,Ksh120.00,Cash,Cancelled,0,+254745678901
+BK0088,Henry Korir,789012345,Male,Nairobi,RT009,Nairobi,Machakos,KBZ 001A,Bus,Kelvin Omondi,4.5,30-Apr-24,10:30 AM,Economy,3,Ksh200.00,Ksh600.00,M-Pesa,No Show,0,+254789012345
+BK0098,Samuel Odhiambo,789888999,Male,Kisumu,RT003,Nairobi,Nakuru,KDE 678G,Bus,Peter Ngugi,4.3,11-May-24,1:00 PM,Economy,2,Ksh450.00,Ksh900.00,Cash,Cancelled,0,+254789888999
+BK0110,James Gitonga,701234567,Male,Nairobi,RT003,Nairobi,Nakuru,KBZ 001A,Bus,Kelvin Omondi,4.5,23-May-24,10:30 AM,Economy,2,Ksh450.00,Ksh900.00,Cash,No Show,0,+254701234567
+BK0112,Liam Mutua,723222333,Male,Machakos,RT002,Nairobi,Kisumu,KDF 901H,Matatu,Isaac Korir,3.8,27-May-24,9:00 AM,Business,1,"Ksh1,350.00","Ksh1,350.00",M-Pesa,Cancelled,0,+254723222333
+BK0125,Esther Njoroge,756789012,Female,Nakuru,RT001,Nairobi,Mombasa,KDA 567C,Matatu,Moses Kipchoge,4.8,9-Jun-24,7:00 PM,Economy,2,"Ksh1,200.00","Ksh2,400.00",M-Pesa,Cancelled,2,+254756789012
+BK0126,Felix Hassan,767890123,Male,Nairobi,RT006,Mombasa,Malindi,KDD 345F,Minibus,Samuel Gitonga,4.6,10-Jun-24,12:00 PM,Economy,3,Ksh350.00,"Ksh1,050.00",Cash,Cancelled,0,+254767890123
+BK0132,Liam Mutua,723222333,Male,Machakos,RT003,Nairobi,Nakuru,KDC 112E,Minibus,Hassan Abdi,4.1,18-Jun-24,6:00 AM,Business,1,Ksh675.00,Ksh675.00,Cash,No Show,0,+254723222333
+BK0140,Victor Abdi,701000111,Male,Mombasa,RT005,Nairobi,Thika,KBZ 001A,Bus,Kelvin Omondi,4.5,29-Jun-24,6:00 AM,Economy,1,Ksh120.00,Ksh120.00,Cash,Cancelled,0,+254701000111
+BK0154,Nathan Kipchoge,745444555,Male,Eldoret,RT008,Kisumu,Kakamega,KDD 345F,Minibus,Samuel Gitonga,4.6,19-Jul-24,7:30 AM,Economy,3,Ksh180.00,Ksh540.00,M-Pesa,Cancelled,0,+254745444555
+BK0168,Henry Korir,789012345,Male,Nairobi,RT001,Nairobi,Mombasa,KDA 567C,Matatu,Moses Kipchoge,4.8,8-Aug-24,8:00 AM,Economy,2,"Ksh1,200.00","Ksh2,400.00",Mpesa,Cancelled,0,+254789012345
+BK0169,Irene Chebet,790123456,Female,Thika,RT009,Nairobi,Machakos,KBZ 001A,Bus,Kelvin Omondi,4.5,12-Aug-24,6:00 AM,Economy,2,Ksh200.00,Ksh400.00,M-Pesa,No Show,5,+254790123456
+BK0176,Patrick Ngugi,767666777,Male,Nyeri,RT008,Kisumu,Kakamega,KCB 234B,Bus,Brian Kamau,4.2,21-Aug-24,5:30 PM,Economy,3,Ksh180.00,Ksh540.00,Cash,No Show,0,+254767666777
+BK0182,Brian Otieno,,Male,Mombasa,RT002,Nairobi,Kisumu,KDD 345F,Minibus,Samuel Gitonga,4.6,2-Sep-24,7:30 AM,Business,1,"Ksh1,350.00","Ksh1,350.00",Cash,Cancelled,0,
+BK0196,Patrick Ngugi,767666777,Male,Nyeri,RT001,Nairobi,Mombasa,KBZ 001A,Bus,Kelvin Omondi,4.5,21-Sep-24,4:00 PM,Economy,2,"Ksh1,200.00","Ksh2,400.00",M-Pesa,Cancelled,0,+254767666777
+BK0198,Samuel Odhiambo,789888999,Male,Kisumu,RT009,Nairobi,Machakos,KDE 678G,Bus,Peter Ngugi,4.3,24-Sep-24,1:00 PM,Economy,2,Ksh200.00,Ksh400.00,Cash,No Show,0,+254789888999
+BK0210,James Gitonga,701234567,Male,none,RT010,Nairobi,Naivasha,KCB 234B,Bus,Brian Kamau,4.2,7-Oct-24,12:00 PM,Economy,1,Ksh280.00,Ksh280.00,Cash,Cancelled,0,+254701234567
+BK0213,Mary Waweru,734333444,Female,Nairobi,RT006,Mombasa,Malindi,KDF 901H,Matatu,Isaac Korir,3.8,10-Oct-24,9:00 PM,Economy,1,Ksh350.00,Ksh350.00,Card,No Show,4,+254734333444
+BK0220,Victor Abdi,701000111,Male,Mombasa,RT010,Nairobi,Naivasha,KDB 890D,Matatu,Tony Karanja,3.9,21-Oct-24,9:00 AM,Economy,2,Ksh280.00,Ksh560.00,M-Pesa,No Show,0,+254701000111
+BK0224,David Kamau,0745678901,Male,Nairobi,RT008,Kisumu,Kakamega,KDB 890D,Matatu,Tony Karanja,3.9,25-Oct-24,9:00 PM,Economy,2,Ksh180.00,Ksh360.00,Cash,Cancelled,0,+254745678901
+BK0238,Samuel Odhiambo,789888999,Male,Kisumu,RT008,Kisumu,Kakamega,KDD 345F,Minibus,Samuel Gitonga,4.6,11-Nov-24,5:30 PM,Economy,1,Ksh180.00,Ksh180.00,M-Pesa,Cancelled,0,+254789888999
+BK0242,Brian Otieno,723456789,Male,Mombasa,RT006,Mombasa,Malindi,KDD 345F,Minibus,Samuel Gitonga,4.6,15-Nov-24,12:00 PM,Business,1,Ksh525.00,Ksh525.00,Cash,No Show,0,+254723456789
+BK0252,Liam Mutua,723222333,Male,Machakos,RT003,Nairobi,Nakuru,KDC 112E,Minibus,Hassan Abdi,4.1,26-Nov-24,6:00 AM,Business,1,Ksh675.00,Ksh675.00,Cash,Cancelled,0,+254723222333
+BK0264,David Kamau,745678901,Male,Nairobi,RT007,Nairobi,Nyeri,KDA 567C,Matatu,Moses Kipchoge,4.8,12-Dec-24,8:00 AM,Economy,2,Ksh400.00,Ksh800.00,Cash,No Show,0,+254745678901
+BK0266,Felix Hassan,767890123,Male,Nairobi,RT007,Nairobi,Nyeri,KDA 567C,Matatu,Moses Kipchoge,4.8,17-Dec-24,8:00 AM,Economy,3,Ksh400.00,"Ksh1,200.00",Cash,Cancelled,0,+254767890123
+BK0280,Victor Abdi,701000111,Male,Mombasa,RT002,Nairobi,Kisumu,KCB 234B,Bus,Brian Kamau,4.2,1-Jan-25,12:00 PM,Economy,3,Ksh900.00,"Ksh2,700.00",M-Pesa,Cancelled,0,+254701000111
