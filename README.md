@@ -19,7 +19,7 @@ project 2
      capitalised each worf to fix the casing
      replaced value to change the single letters to full words ,advanced option -match entire cells content box so that power query only changes the single letter without breaking the existing words
      
-=============================================================================================================================================================================
+=====================================================================================================================================
 ####DATABASE SET UP (POSTGRES + DBEAVER)
    ## SCHEMA CREATION
       creeated a schema to organize all safari connect data 
@@ -39,7 +39,7 @@ Imported 289 rows of cleaned CSV into PostgreSQL using DBeaver's Import Data too
            select count(*) from safari_connect_clean.safari_connect_clean;
 -- Result: 289 rows 
 
-============================================================================================================================================================================
+===========================================================================================================================================
 ##VIEW CREATION
   Created a filtered view containing only Completed bookings (254 out of 289 total).
 What It Includes
@@ -52,7 +52,7 @@ satisfaction_level — categorized based on trip_rating:
 0 = 'Unsatisfied'
 No rating = 'No Rating'
 
-=============================================================================================================================================================================
+============================================================================================================================================
 ###BUSINESS ANALYSIS###
 Question 1: Route Performance Analysis
 Business Objective
@@ -80,7 +80,7 @@ Why nullif()?
 Prevents division by zero errors. If a route has 0 seats booked:
 nullif(sum(seats_booked::integer), 0) returns NULL if seats = 0, otherwise returns the actual number.
 
-=============================================================================================================================================================================
+===========================================================================================================================
 1A: Revenue & Bookings by Route
 What it shows: Total bookings, passengers, and revenue per route.
 
@@ -92,7 +92,7 @@ Key Results:
 | RT008 (Kisumu → Kakamega) | 25 | 38 | KES 7,470 | 205 | 3.1 |
 Business Insight: RT001 dominates revenue. Routes with high ratings (4+) are performing well.
 
-=============================================================================================================================================================================
+===========================================================================================================================
 1B: Revenue Per Seat (Efficiency)
 What it shows: Which routes earn MOST per passenger (profit efficiency).
 
@@ -104,7 +104,7 @@ Key Results:
 | RT008 | KES 7,470 | 38 | KES 197 | Budget |
 Business Insight: Premium routes (KES 1,000+/seat) maintain quality. Budget routes (KES 100-300/seat) use volume strategy.
 
-=============================================================================================================================================================================
+======================================================================================================================
 1C: Route Ranking with Window Functions
 What it shows: Route rankings by revenue + percentage of total company revenue.
 
@@ -117,7 +117,7 @@ Key Results:
 Business Insight: Top 3 routes = 39% of revenue. High concentration = risk. Need to grow weaker routes.
 Technical: Uses CTEs (WITH clauses) and RANK() window function for ranking without collapsing data.
 
-=============================================================================================================================================================================
+=======================================================================================================================
 
 1D: Vehicle Type Performance
 What it shows: Bus vs Matatu vs Minibus — which vehicle type is most profitable?
