@@ -43,6 +43,7 @@ Imported 289 rows of cleaned CSV into PostgreSQL using DBeaver's Import Data too
 ===========================================================================================================================================
 
 ##VIEW CREATION
+
   Created a filtered view containing only Completed bookings (254 out of 289 total).
 What It Includes
 All booking details (passenger, route, vehicle, driver, fare info)
@@ -57,6 +58,7 @@ No rating = 'No Rating'
 ============================================================================================================================================
 
 ###BUSINESS ANALYSIS###
+
 Question 1: Route Performance Analysis
 Business Objective
 Analyze route profitability, efficiency, and market concentration. Identify which routes drive revenue, which are most efficient, and how business is distributed across routes.
@@ -86,6 +88,7 @@ nullif(sum(seats_booked::integer), 0) returns NULL if seats = 0, otherwise retur
 ===========================================================================================================================
 
 1A: Revenue & Bookings by Route
+
 What it shows: Total bookings, passengers, and revenue per route.
 
 Key Results:
@@ -99,6 +102,7 @@ Business Insight: RT001 dominates revenue. Routes with high ratings (4+) are per
 ===========================================================================================================================
 
 1B: Revenue Per Seat (Efficiency)
+
 What it shows: Which routes earn MOST per passenger (profit efficiency).
 
 Key Results:
@@ -112,6 +116,7 @@ Business Insight: Premium routes (KES 1,000+/seat) maintain quality. Budget rout
 ======================================================================================================================
 
 1C: Route Ranking with Window Functions
+
 What it shows: Route rankings by revenue + percentage of total company revenue.
 
 Key Results:
@@ -126,6 +131,7 @@ Technical: Uses CTEs (WITH clauses) and RANK() window function for ranking witho
 =======================================================================================================================
 
 1D: Vehicle Type Performance
+
 What it shows: Bus vs Matatu vs Minibus — which vehicle type is most profitable?
 Key Results:
 | Vehicle Type | Bookings | Seats | Revenue | Rating |
