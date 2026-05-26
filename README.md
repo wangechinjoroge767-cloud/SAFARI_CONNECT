@@ -20,6 +20,7 @@ project 2
      replaced value to change the single letters to full words ,advanced option -match entire cells content box so that power query only changes the single letter without breaking the existing words
      
 =====================================================================================================================================
+
 ####DATABASE SET UP (POSTGRES + DBEAVER)
    ## SCHEMA CREATION
       creeated a schema to organize all safari connect data 
@@ -40,6 +41,7 @@ Imported 289 rows of cleaned CSV into PostgreSQL using DBeaver's Import Data too
 -- Result: 289 rows 
 
 ===========================================================================================================================================
+
 ##VIEW CREATION
   Created a filtered view containing only Completed bookings (254 out of 289 total).
 What It Includes
@@ -53,6 +55,7 @@ satisfaction_level — categorized based on trip_rating:
 No rating = 'No Rating'
 
 ============================================================================================================================================
+
 ###BUSINESS ANALYSIS###
 Question 1: Route Performance Analysis
 Business Objective
@@ -81,6 +84,7 @@ Prevents division by zero errors. If a route has 0 seats booked:
 nullif(sum(seats_booked::integer), 0) returns NULL if seats = 0, otherwise returns the actual number.
 
 ===========================================================================================================================
+
 1A: Revenue & Bookings by Route
 What it shows: Total bookings, passengers, and revenue per route.
 
@@ -93,6 +97,7 @@ Key Results:
 Business Insight: RT001 dominates revenue. Routes with high ratings (4+) are performing well.
 
 ===========================================================================================================================
+
 1B: Revenue Per Seat (Efficiency)
 What it shows: Which routes earn MOST per passenger (profit efficiency).
 
@@ -105,6 +110,7 @@ Key Results:
 Business Insight: Premium routes (KES 1,000+/seat) maintain quality. Budget routes (KES 100-300/seat) use volume strategy.
 
 ======================================================================================================================
+
 1C: Route Ranking with Window Functions
 What it shows: Route rankings by revenue + percentage of total company revenue.
 
