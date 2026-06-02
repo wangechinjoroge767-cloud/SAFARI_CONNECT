@@ -426,3 +426,172 @@ Repeat for RT002, RT003 — Why separate CASE statements?
 ORDER BY month — Why chronological?
         Easier to spot seasonal patterns
         See if RT001 peaks in Feb, RT002 in Apr, etc.
+
+=====================================================================================
+
+4A: Top Passenger Cities (3+ bookings minimum)
+
+set search_path to safari_connect_clean;
+
+select 
+    passenger_city,
+    count(*) as total_bookings,
+    sum(seats_booked::integer) as total_seats,
+    sum(regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric) as total_revenue,
+    round(avg(regexp_replace(fare_per_seat, '[^0-9.]', '', 'g')::numeric), 2) as avg_fare
+from v_clean_safari
+group by passenger_city
+having count(*) >= 3
+order by total_bookings desc;
+
+Shows: Which cities have most passengers.
+What we wanted: Which cities have most passengers?
+Why these functions:
+GROUP BY passenger_city — Collapse multiple bookings per city into one row
+COUNT(*) — Count bookings per city
+SUM(seats_booked) — Total passengers from that city
+HAVING COUNT(*) >= 3 — Filter to only cities with 3+ bookings (ignore tiny markets)
+ORDER BY total_bookings DESC — Show busiest cities first
+
+===================================================================================
+
+
+4C: Satisfaction Breakdown
+
+set search_path to safari_connect_clean;
+
+select 
+    passenger_gender,
+    sum(case when seat_class = 'Economy' then 1 else 0 end) as economy_bookings,
+    sum(case when seat_class = 'Business' then 1 else 0 end) as business_bookings,
+    round(sum(case when seat_class = 'Economy' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as economy_revenue,
+    round(sum(case when seat_class = 'Business' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as business_revenue
+from v_clean_safari
+group by passenger_gender
+order by economy_bookings desc;
+Shows: How many trips are Satisfied/Neutral/Unsatisfied/No Rating.
+What we wanted: What % of trips are Satisfied vs Neutral vs Unsatisfied?
+Why these functions:
+CASE WHEN trip_rating >= 4.5 — Categorize ratings into satisfaction levels (not just raw 1-5 scores)
+WHERE booking_status = 'Completed' — Only count finished trips (cancelled/no-show aren't real trips)
+GROUP BY satisfaction_level — Count each category
+SUM(count) OVER () — Grand total for percentage calculation (dividing by total = %)
+Shows business health: % of happy passengers
+
+=======================================================================================
+
+
+4B: Gender Split and Seat Class Preference
+
+set search_path to safari_connect_clean;
+
+select 
+    passenger_gender,
+    sum(case when seat_class = 'Economy' then 1 else 0 end) as economy_bookings,
+    sum(case when seat_class = 'Business' then 1 else 0 end) as business_bookings,
+    round(sum(case when seat_class = 'Economy' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as economy_revenue,
+    round(sum(case when seat_class = 'Business' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as business_revenue
+from v_clean_safari
+group by passenger_gender
+order by economy_bookings desc;
+
+Shows: Gender breakdown + Economy vs Business preference and revenue.
+New Concept: CASE WHEN for pivot-style aggregation.. 
+What we wanted: Do men prefer Business? Do women prefer Economy? Show both gender splits AND revenue.
+Why these functions:
+GROUP BY passenger_gender — One row per gender (Male, Female)
+SUM(CASE WHEN seat_class = 'Economy' THEN 1 ELSE 0 END) — Count Economy bookings (pivot rows to columns)
+Repeat CASE for Business class
+Also count revenue per class
+Why CASE instead of filtering? CASE keeps all data in one row (easy comparison)
+
+==============================================================================
+
+4D: Passenger Quartiles by Spend
+What we wanted: Who are the top 25% spenders? VIP customers.
+Why these functions:
+NTILE(4) OVER (ORDER BY total_spent) — Divides ALL passengers into 4 equal groups (quartiles):
+Quartile 1: Bottom 25% (low spenders)
+Quartile 2-3: Middle 50%
+Quartile 4: Top 25% (VIPs)
+WHERE quartile = 4 — Show only VIPs
+Helps identify customers worth targeting with loyalty programs
+
+===========================================================================
+Question 5: Cancellations & Lost Revenue (SHORT)
+
+5A: Overall Status Breakdown
+
+What we wanted: How many bookings are Completed vs Cancelled vs No Show? How much revenue was lost?
+Why these functions:
+GROUP BY booking_status — One row per status (Completed, Cancelled, No Show)
+COUNT(*) — How many bookings per status
+SUM(count(*)) OVER () — Grand total to calculate percentage
+SUM(total_fare) — Revenue per status (lost revenue for non-completed)
+Shows operational health: completion rate vs loss rate
+
+========================================================================
+
+5B: Cancellation Rate by Route
+
+What we wanted: Which routes have highest cancellation problems? Focus improvements there.
+Why these functions:
+GROUP BY route_code, route_from, route_to — One row per route
+SUM(CASE WHEN booking_status = 'Completed' THEN 1 ELSE 0 END) — Count completed trips per route (pivot)
+Repeat for Cancelled and No Show
+ROUND(100.0 * cancelled / COUNT(*), 2) — Cancellation % per route
+Why CASE instead of WHERE? CASE keeps all statuses in one row (easy comparison)
+ORDER BY cancellation_rate_pct DESC — Show problem routes first
+
+===========================================================================
+5C: Revenue Lost
+
+What we wanted: How much KES did we lose to cancellations vs no-shows?
+Why these functions:
+WHERE booking_status IN ('Cancelled', 'No Show') — Filter to only lost bookings
+GROUP BY booking_status — One row per type (Cancelled vs No Show)
+SUM(total_fare) — Total lost revenue
+AVG(total_fare) — Average value per lost booking (shows booking quality)
+Shows financial impact of operational failures
+
+
+========================================================================
+Question 6: Operational Patterns 
+6A: Revenue by Day of Week
+
+What we wanted: Which days are busiest? Schedule drivers/vehicles accordingly.
+Why these functions:
+TO_CHAR(departure_date::date, 'Day') — Extract day name from date (Monday, Tuesday, etc.)
+GROUP BY day_of_week — One row per day (7 rows total)
+COUNT(*) — Trips per day
+SUM(seats_booked) — Passengers per day
+ORDER BY revenue DESC — Show busiest days first
+Why not just day of week number (1-7)? Day names are readable
+
+=======================================================
+
+6B: Busiest Departure Times
+
+What we wanted: Which time slots are most popular? 6 AM vs 9 AM vs 5 PM?
+Why these functions:
+GROUP BY departure_time — One row per time slot (6:00, 6:30, 7:00, etc.)
+COUNT(*) — How many trips at that time
+SUM(seats_booked) — Passenger volume per slot
+LIMIT 10 — Show only top 10 busiest times (not all 24 hours)
+ORDER BY revenue DESC — Most profitable times first
+Helps plan vehicle/driver allocation by time
+
+=======================================================================
+
+6C: Seat Utilisation by Vehicle Type
+
+What we wanted: Are Buses/Matatus/Minibuses full or empty? Which vehicle type runs most efficiently?
+Why these functions:
+GROUP BY vehicle_type — One row per vehicle type (3 rows: Bus, Matatu, Minibus)
+AVG(seats_booked) — Average passengers per trip per vehicle type
+CASE WHEN avg > 3 THEN 'High Load' — Categorize utilisation (not just raw numbers)
+High Load (>3): Profitable, full vehicles
+Medium Load (2-3): Decent utilisation
+Low Load (<2): Inefficient, empty vehicles
+ORDER BY avg_seats_booked DESC — Show fullest vehicles first
+Shows which vehicle type to buy more of
