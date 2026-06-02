@@ -433,16 +433,16 @@ ORDER BY month — Why chronological?
 
 set search_path to safari_connect_clean;
 
-select 
-    passenger_city,
-    count(*) as total_bookings,
-    sum(seats_booked::integer) as total_seats,
-    sum(regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric) as total_revenue,
-    round(avg(regexp_replace(fare_per_seat, '[^0-9.]', '', 'g')::numeric), 2) as avg_fare
-from v_clean_safari
-group by passenger_city
-having count(*) >= 3
-order by total_bookings desc;
+          select 
+              passenger_city,
+              count(*) as total_bookings,
+              sum(seats_booked::integer) as total_seats,
+              sum(regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric) as total_revenue,
+              round(avg(regexp_replace(fare_per_seat, '[^0-9.]', '', 'g')::numeric), 2) as avg_fare
+          from v_clean_safari
+          group by passenger_city
+          having count(*) >= 3
+          order by total_bookings desc;
 
 Shows: Which cities have most passengers.
 What we wanted: Which cities have most passengers?
@@ -460,15 +460,15 @@ ORDER BY total_bookings DESC — Show busiest cities first
 
 set search_path to safari_connect_clean;
 
-select 
-    passenger_gender,
-    sum(case when seat_class = 'Economy' then 1 else 0 end) as economy_bookings,
-    sum(case when seat_class = 'Business' then 1 else 0 end) as business_bookings,
-    round(sum(case when seat_class = 'Economy' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as economy_revenue,
-    round(sum(case when seat_class = 'Business' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as business_revenue
-from v_clean_safari
-group by passenger_gender
-order by economy_bookings desc;
+        select 
+            passenger_gender,
+            sum(case when seat_class = 'Economy' then 1 else 0 end) as economy_bookings,
+            sum(case when seat_class = 'Business' then 1 else 0 end) as business_bookings,
+            round(sum(case when seat_class = 'Economy' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as economy_revenue,
+            round(sum(case when seat_class = 'Business' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as business_revenue
+        from v_clean_safari
+        group by passenger_gender
+        order by economy_bookings desc;
 Shows: How many trips are Satisfied/Neutral/Unsatisfied/No Rating.
 What we wanted: What % of trips are Satisfied vs Neutral vs Unsatisfied?
 Why these functions:
@@ -485,15 +485,15 @@ Shows business health: % of happy passengers
 
 set search_path to safari_connect_clean;
 
-select 
-    passenger_gender,
-    sum(case when seat_class = 'Economy' then 1 else 0 end) as economy_bookings,
-    sum(case when seat_class = 'Business' then 1 else 0 end) as business_bookings,
-    round(sum(case when seat_class = 'Economy' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as economy_revenue,
-    round(sum(case when seat_class = 'Business' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as business_revenue
-from v_clean_safari
-group by passenger_gender
-order by economy_bookings desc;
+          select 
+              passenger_gender,
+              sum(case when seat_class = 'Economy' then 1 else 0 end) as economy_bookings,
+              sum(case when seat_class = 'Business' then 1 else 0 end) as business_bookings,
+              round(sum(case when seat_class = 'Economy' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as economy_revenue,
+              round(sum(case when seat_class = 'Business' then regexp_replace(total_fare, '[^0-9.]', '', 'g')::numeric else 0 end), 2) as business_revenue
+          from v_clean_safari
+          group by passenger_gender
+          order by economy_bookings desc;
 
 Shows: Gender breakdown + Economy vs Business preference and revenue.
 New Concept: CASE WHEN for pivot-style aggregation.. 
