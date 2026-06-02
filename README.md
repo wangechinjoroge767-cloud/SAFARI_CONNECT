@@ -23,21 +23,21 @@ project 2
 
 ####DATABASE SET UP (POSTGRES + DBEAVER)
    ## SCHEMA CREATION
-      creeated a schema to organize all safari connect data 
+      created a schema to organize all safari connect data 
       Created table safari_connect_clean with proper data types:
-booking_id (VARCHAR) — primary key
-passenger_name, passenger_phone, passenger_gender, passenger_city (VARCHAR)
-route_code, route_from, route_to (VARCHAR)
-vehicle_plate, vehicle_type (VARCHAR)
-driver_name, driver_rating (NUMERIC)
-departure_date, departure_time (VARCHAR, cast to DATE/TIME for queries)
-seat_class, seats_booked (VARCHAR, INTEGER when cast)
-fare_per_seat, total_fare (VARCHAR, NUMERIC when cast)
-payment_method, booking_status, trip_rating (VARCHAR)
-custom_phone (VARCHAR)
+        booking_id (VARCHAR) — primary key
+        passenger_name, passenger_phone, passenger_gender, passenger_city (VARCHAR)
+        route_code, route_from, route_to (VARCHAR)
+        vehicle_plate, vehicle_type (VARCHAR)
+        driver_name, driver_rating (NUMERIC)
+        departure_date, departure_time (VARCHAR, cast to DATE/TIME for queries)
+        seat_class, seats_booked (VARCHAR, INTEGER when cast)
+        fare_per_seat, total_fare (VARCHAR, NUMERIC when cast)
+        payment_method, booking_status, trip_rating (VARCHAR)
+        custom_phone (VARCHAR)
 Data Import
 Imported 289 rows of cleaned CSV into PostgreSQL using DBeaver's Import Data tool.
-           select count(*) from safari_connect_clean.safari_connect_clean;
+select count(*) from safari_connect_clean.safari_connect_clean;
 -- Result: 289 rows 
 
 ===========================================================================================================================================
